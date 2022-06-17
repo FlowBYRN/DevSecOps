@@ -1,9 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: toc.aux
 A level-1 auxiliary file: chapters.aux
 A level-1 auxiliary file: append.aux
 The style file: natger.bst
 A level-1 auxiliary file: eid.aux
+I found no \citation commands---while reading file thesis.aux
 Database file #1: thesis.bib
-Warning--to sort, need author or key in Orca
-(There was 1 warning)
+(There was 1 error message)

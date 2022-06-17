@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  17 JUN 2022 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  17 JUN 2022 14:23
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1110,7 +1110,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 3.
+(Font)              scaled to size 13.67995pt on input line 6.
 chapter 3.
 chapter 4.
 chapter 5.
@@ -1189,12 +1189,12 @@ LaTeX Warning: Hyper reference `acro:bim' on page 3 undefined on input line 12.
 chapter B.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 21.
-<figures/orca-ava-tree.png, id=84, 956.07187pt x 517.18219pt>
+<figures/orca-ava-tree.png, id=86, 956.07187pt x 517.18219pt>
 File: figures/orca-ava-tree.png Graphic file (type png)
 <use figures/orca-ava-tree.png>
 Package pdftex.def Info: figures/orca-ava-tree.png  used on input line 23.
 (pdftex.def)             Requested size: 455.24411pt x 246.25595pt.
-<figures/tree-result.png, id=86, 1174.3875pt x 672.26157pt>
+<figures/tree-result.png, id=88, 1174.3875pt x 672.26157pt>
 File: figures/tree-result.png Graphic file (type png)
 <use figures/tree-result.png>
 Package pdftex.def Info: figures/tree-result.png  used on input line 30.
@@ -1203,17 +1203,10 @@ Package pdftex.def Info: figures/tree-result.png  used on input line 30.
 
  <./figures/orca-ava-tree.png> <./figures/tree-result.png>] (thesis.bbl
 chapter without number
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 6.
 
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
 
-("C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t
-1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 ) [5
 
 
@@ -1273,25 +1266,24 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18233 strings out of 481556
- 341093 string characters out of 2909189
- 792810 words of memory out of 3000000
- 32861 multiletter control sequences out of 15000+200000
- 592071 words of font info for 192 fonts, out of 3000000 for 9000
+ 18189 strings out of 481556
+ 340431 string characters out of 2909189
+ 793810 words of memory out of 3000000
+ 32827 multiletter control sequences out of 15000+200000
+ 591352 words of font info for 188 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,74p,10103b,716s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/base/8r.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Florian.Weidner/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Florian.Weid
-ner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/U
-sers/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic
-/uhvr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/urw/palatino/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (9 pages, 287824 bytes).
+l/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Florian.Wei
+dner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
+Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatin
+o/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (9 pages, 274471 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 85608 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 85104 words of extra memory for PDF output out of 89155 (max. 10000000)
 

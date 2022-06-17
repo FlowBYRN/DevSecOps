@@ -1,0 +1,4 @@
+https://azure.microsoft.com/de-de/solutions/devsecops/#overview
+
+https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github
+https://entwickler.de/continuous-delivery/sicherheit-im-octoverse-devsecops-mit-github/
