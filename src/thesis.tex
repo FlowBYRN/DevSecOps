@@ -1,0 +1,144 @@
+  \documentclass[twoside=false, %  doppelseitiger Druck
+    DIV=15,% DIV Faktor für Satzspiegelberechnung, sie Doku zu KOMA Script
+    BCOR=15mm, % Bindekorrektur
+    chapterprefix=false,
+    headinclude=flase,
+    footinclude=false,
+    pagesize,%         write pagesize to DVI or PDF
+    fontsize=11pt,%             use this font size
+    paper=a4,%          use ISO A4
+    bibliography=totoc,%         write bibliography-chapter to table of contents
+    index=totoc,%         write index-chapter to table of contents
+    cleardoublepage=plain,% \cleardoublepage generates pages with pagestyle empty
+     headings=big,%       A4/B5
+    listof=flat,%        improved list of tables
+    numbers=noenddot
+  ]{scrbook}
+
+\usepackage[
+a4paper,% other options: a3paper, a5paper, etc
+left=3cm,
+right=2cm,
+top=2cm,
+bottom=2cm,
+% use vmargin=2cm to make vertical margins equal to 2cm.
+% us  hmargin=3cm to make horizontal margins equal to 3cm.
+% use margin=3cm to make all margins  equal to 3cm.
+]
+{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{acronym}
+\usepackage{amsfonts}
+\usepackage[slantedGreek,sc]{mathpazo}  % Schriftart Palatino
+% \usepackage{lmodern}    % statt mathpazo, falls CM Fonts verwendet werden sollen
+%\usepackage{mathptmx}    % statt mathpazo, falls Times  verwendet werden soll
+\usepackage[scaled=.95]{helvet}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{amsmath}            % standard math notation (vectors/sets/...)
+\usepackage{bm}        % standard math notation (fonts)
+\usepackage{fixmath}        % standard math notation (fonts)
+\usepackage{graphicx}
+\usepackage[facing=yes]{floatrow}       % mehrere Gleitobjekte nebeneinander/caption neben Bild/Tabelle
+\usepackage[labelfont=bf,sf,font=small,labelsep=space,format=plain]{caption}
+\usepackage{subcaption}
+\usepackage{scrlayer-scrpage}
+% \usepackage{pstool}  % einbinden falls psfrag verwendet werden soll
+\usepackage{epstopdf}
+\usepackage[ngerman]{babel}
+\usepackage{ellipsis}  % Korrigiert den Weißraum um Auslassungspunkte
+\usepackage{microtype}  % optischer Randausgleich etc.
+
+\usepackage{xcolor}         % z.B. für schattierte Boxen
+\usepackage{framed}			% shaded Umgebung
+\usepackage{setspace}		% für den Zeilenabstand
+\definecolor{shadecolor}{gray}{.85}%
+
+% Links im PDF
+\usepackage[colorlinks=false,
+            pdfborder={0 0 0},
+            breaklinks=true]
+            {hyperref}
+\usepackage{pdfpages}
+
+%\typearea[current]{calc}
+
+
+% Einstellungen für Bild-/Tabellenbeschriftung neben dem Bild
+\floatsetup[figure]{capbesideposition={inside,top}}
+\floatsetup[table]{capbesideposition={inside,top},style=plaintop}
+\renewfloatcommand{fcapside}{figure}[\capbeside][\FBwidth]
+\newfloatcommand{tcapside}{table}[\capbeside][\FBwidth]
+
+
+\selectlanguage{ngerman}
+
+
+\deffootnote{1em}{1em}{%
+ \makebox[1em][l]{\thefootnotemark}}
+
+\makeindex
+
+\newcommand{\real}{\mathord{\mathrm{I\!R}}}
+
+% Kapitel starten auch auf selber Seite
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+
+\makeatother
+
+\begin{document}
+\selectlanguage{ngerman}
+\def\figdir{figures}
+\def\tabledir{tables}
+
+\frontmatter
+
+\pagestyle{scrplain}
+\pagestyle{empty}
+
+%\include{title}
+%\cleardoubleemptypage
+%\include{abstract}
+%\cleardoubleemptypage
+
+\pagestyle{scrplain}
+\pagenumbering{roman}
+\include{toc}
+
+\pagestyle{scrheadings}
+
+
+\addtokomafont{caption}{\small}
+
+\mainmatter
+
+\onehalfspace
+\include{chapters}
+
+
+
+
+\appendix
+\include{append}
+
+\cleardoublepage
+
+\bibliographystyle{natger}
+\bibliography{thesis}
+
+\cleardoublepage
+
+\footnotesize
+\printindex
+
+\pagenumbering{gobble}
+\include{eid}
+
+
+
+
+\end{document}
