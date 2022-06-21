@@ -1,3 +1,21 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{Mac20}
+
+\bibitem[Bee21]{git-ops}
+F.~Beetz und S.~Harrer.
+\newblock GitOps: The Evolution of DevOps?
+\newblock \emph{IEEE Software}, S. 0--0, 2021.
+
+\bibitem[Ibr22]{security-model}
+A.~Ibrahim, A.~H. Yousef und W.~Medhat.
+\newblock DevSecOps: A Security Model for Infrastructure as Code Over the
+  Cloud.
+\newblock In \emph{2022 2nd International Mobile, Intelligent, and Ubiquitous
+  Computing Conference (MIUCC)}, S. 284--288. 2022.
+
+\bibitem[Mac20]{dev-ops}
+R.~W. Macarthy und J.~M. Bass.
+\newblock An Empirical Taxonomy of DevOps in Practice.
+\newblock In \emph{2020 46th Euromicro Conference on Software Engineering and
+  Advanced Applications (SEAA)}, S. 221--228. 2020.
 
 \end{thebibliography}

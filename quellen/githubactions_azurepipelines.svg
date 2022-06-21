@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="trend-chart" width="660" height="400" title="Stack Overflow Trends Chart"
+    version="1.1">
+    <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link" />
+    <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link" />
+    <style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style" />
+    <style xmlns="" lang="en" type="text/css" id="dark-mode-native-style" />
+    <style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet" />
+    <g />
+    <g class="chart-area" transform="translate(100, 20)">
+        <g transform="translate(0,300)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+            <path class="domain" stroke="#000" d="M0.5,6V0.5H410.5V6" />
+            <g class="tick" opacity="1" transform="translate(12.49692956250415,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2009</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(42.30174931952466,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2010</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(72.10656907654517,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2011</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(101.9113888335657,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2012</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(131.7978656310164,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2013</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(161.60268538803692,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2014</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(191.40750514505743,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2015</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(221.21232490207797,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2016</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(251.09880169952865,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2017</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(280.90362145654916,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2018</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(310.70844121356964,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2019</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(340.5132609705902,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2020</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(370.3997377680409,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2021</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(400.20455752506143,0)">
+                <line stroke="#000" y2="6" x1="0.5" x2="0.5" /><text fill="#000" y="9" x="0.5" dy="0.71em"
+                    style="font-size: 12px;">2022</text>
+            </g>
+        </g>
+        <g class="grid-lines" transform="translate(0,300)" fill="none" font-size="10" font-family="sans-serif"
+            text-anchor="middle">
+            <path class="domain" stroke="#000" d="M0.5,-300V0.5H410.5V-300" />
+            <g class="tick" opacity="1" transform="translate(12.49692956250415,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(42.30174931952466,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(72.10656907654517,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(101.9113888335657,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(131.7978656310164,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(161.60268538803692,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(191.40750514505743,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(221.21232490207797,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(251.09880169952865,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(280.90362145654916,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(310.70844121356964,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(340.5132609705902,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(370.3997377680409,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(400.20455752506143,0)">
+                <line stroke="#000" y2="-300" x1="0.5" x2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+        </g><text x="205" y="360" class="axis-label x-axis-label"
+            style="text-anchor: middle; font-weight: bold;">Year</text>
+        <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <path class="domain" stroke="#000" d="M-6,300.5H0.5V0.5H-6" />
+            <g class="tick" opacity="1" transform="translate(0,300)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.00%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,280)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.02%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,260)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.04%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,240)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.06%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,220)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.08%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,200)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.10%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,180)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.12%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,160)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.14%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,140)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.16%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,120)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.18%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,100)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.20%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,79.99999999999997)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.22%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,60.00000000000003)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.24%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,40)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.26%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,20)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.28%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,0)">
+                <line stroke="#000" x2="-6" y1="0.5" y2="0.5" /><text fill="#000" x="-9" y="0.5" dy="0.32em"
+                    style="font-size: 12px;">0.30%</text>
+            </g>
+        </g>
+        <g class="grid-lines" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <path class="domain" stroke="#000" d="M410,300.5H0.5V0.5H410" />
+            <g class="tick" opacity="1" transform="translate(0,300)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,280)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,260)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,240)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,220)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,200)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,180)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,160)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,140)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,120)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,100)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,79.99999999999997)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,60.00000000000003)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,40)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,20)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,0)">
+                <line stroke="#000" x2="410" y1="0.5" y2="0.5" style="stroke: #ccc; fill: none;" />
+            </g>
+        </g>
+        <g class="lines">
+            <path class="line"
+                d="M2.5313682533359887,300L4.981079466241785,300L7.515850096262365,300L9.96556130916816,300L12.49692956250415,300L15.028297815840137,300L17.31469494788555,300L19.842660824536946,300L22.29237203744274,300L24.82374029077873,300L27.273451503684527,300L29.804819757020514,300L32.3361880103565,300L34.7858992232623,300L37.32066985328288,300L39.770381066188676,300L42.30174931952466,300L44.83311757286065,300L47.11951470490606,300L49.64748058155746,300L52.09719179446325,300L54.62856004779924,300L57.07827126070504,300L59.60963951404103,300L62.14100776737702,300L64.59071898028282,300L67.12548961030339,300L69.57520082320919,300L72.10656907654517,300L74.63793732988117,300L76.92433446192658,300L79.45230033857797,300L81.90201155148377,300L84.43337980481975,300L86.88309101772555,300L89.41445927106155,300L91.94582752439753,300L94.39553873730333,300L96.9303093673239,300L99.3800205802297,300L101.9113888335657,300L104.44275708690166,300L106.81081125937729,300L109.3387771360287,300L111.78848834893448,300L114.31985660227048,300L116.76956781517626,300L119.30093606851226,300L121.83230432184823,300L124.28201553475404,300L126.81678616477463,300L129.26649737768042,300L131.7978656310164,300L134.3292338843524,300L136.6156310163978,300L139.1435968930492,300L141.59330810595497,300L144.124676359291,300L146.57438757219677,300L149.10575582553275,300L151.63712407886877,300L154.08683529177455,300L156.62160592179512,300L159.0713171347009,300L161.60268538803692,300L164.1340536413729,300L166.4204507734183,300L168.9484166500697,300L171.3981278629755,300L173.9294961163115,300L176.37920732921728,300L178.9105755825533,300L181.44194383588925,300L183.89165504879506,300L186.42642567881566,300L188.87613689172144,300L191.40750514505743,300L193.9388733983934,300L196.22527053043882,300L198.7532364070902,300L201.20294761999602,300L203.734315873332,300L206.18402708623782,300L208.7153953395738,300L211.24676359290976,300L213.69647480581557,300L216.23124543583614,300L218.68095664874195,300L221.21232490207797,300L223.74369315541395,300L226.11174732788953,300L228.63971320454095,300L231.0894244174467,300L233.62079267078272,300L236.07050388368853,300L238.60187213702451,300L241.1332403903605,300L243.58295160326628,300L246.11772223328686,300L248.56743344619267,300L251.09880169952865,300L253.63016995286466,300L255.91656708491007,300L258.44453296156144,300L260.89424417446725,300L263.42561242780323,300L265.875323640709,300L268.40669189404497,300L270.938060147381,300L273.3877713602868,300L275.92254199030737,300L278.3722532032132,300L280.90362145654916,300L283.43498970988514,300L285.72138684193055,300L288.249352718582,300L290.6990639314878,299.397241779L293.23043218482377,300L295.6801433977295,300L298.2115116510655,300L300.7428799044015,300L303.1925911173073,299.368722737L305.7273617473279,300L308.17707296023366,299.233458025L310.70844121356964,297.964528517L313.2398094669057,298.615984001L315.5262065989511,299.370697142L318.05417247560246,298.018402437L320.50388368850827,299.330126874L323.03525194184425,297.762112566L325.48496315475006,298.658645366L328.01633140808605,282.256263909L330.54769966142203,261.477771934L332.9974108743278,269.49035630000003L335.5321815043484,244.759293738L337.9818927172542,232.881810971L340.5132609705902,253.168044078L343.04462922392617,254.051476271L345.4126833964018,235.319875556L347.94064927305317,242.059375345L350.390360485959,238.867699965L352.92172873929496,225.39636850699998L355.3714399522008,220.36522574399999L357.90280820553676,217.706668481L360.43417645887274,226.579084306L362.8838876717785,207.497011442L365.4186583017991,197.694771979L367.8683695147049,203.703647977L370.3997377680409,192.639694492L372.9311060213769,188.17658907999999L375.2175031534223,188.37020499300002L377.7454690300737,183.30612938299998L380.19518024297946,190.331933689L382.72654849631544,181.054694215L385.17625970922126,161.221520096L387.7076279625573,140.00886531L390.2389962158933,148.06531771400003L392.68870742879903,156.496380441L395.22347805881964,137.952851326L397.67318927172545,145.753325709L400.20455752506143,118.89224801799998L402.7359257783974,95.261133132L405.0223229104428,119.48135862000001L407.5502887870942,101.99724518L410,110.21154469300001"
+                data-legend="github-actions" style="stroke: rgb(31, 119, 180); fill: none;" />
+            <path class="line"
+                d="M2.5313682533359887,300L4.981079466241785,300L7.515850096262365,300L9.96556130916816,300L12.49692956250415,300L15.028297815840137,300L17.31469494788555,300L19.842660824536946,300L22.29237203744274,300L24.82374029077873,300L27.273451503684527,300L29.804819757020514,300L32.3361880103565,300L34.7858992232623,300L37.32066985328288,300L39.770381066188676,300L42.30174931952466,300L44.83311757286065,300L47.11951470490606,300L49.64748058155746,300L52.09719179446325,300L54.62856004779924,300L57.07827126070504,300L59.60963951404103,300L62.14100776737702,300L64.59071898028282,300L67.12548961030339,300L69.57520082320919,300L72.10656907654517,300L74.63793732988117,300L76.92433446192658,300L79.45230033857797,300L81.90201155148377,300L84.43337980481975,300L86.88309101772555,300L89.41445927106155,300L91.94582752439753,300L94.39553873730333,300L96.9303093673239,300L99.3800205802297,300L101.9113888335657,300L104.44275708690166,300L106.81081125937729,300L109.3387771360287,300L111.78848834893448,300L114.31985660227048,300L116.76956781517626,300L119.30093606851226,300L121.83230432184823,300L124.28201553475404,300L126.81678616477463,300L129.26649737768042,300L131.7978656310164,300L134.3292338843524,300L136.6156310163978,300L139.1435968930492,300L141.59330810595497,300L144.124676359291,300L146.57438757219677,300L149.10575582553275,300L151.63712407886877,300L154.08683529177455,300L156.62160592179512,300L159.0713171347009,300L161.60268538803692,300L164.1340536413729,300L166.4204507734183,300L168.9484166500697,300L171.3981278629755,300L173.9294961163115,300L176.37920732921728,300L178.9105755825533,300L181.44194383588925,300L183.89165504879506,299.419225945L186.42642567881566,300L188.87613689172144,300L191.40750514505743,300L193.9388733983934,300L196.22527053043882,300L198.7532364070902,300L201.20294761999602,299.45807976L203.734315873332,299.464312499L206.18402708623782,298.96993763L208.7153953395738,297.780502828L211.24676359290976,293.204136416L213.69647480581557,294.59862373L216.23124543583614,294.352292687L218.68095664874195,294.747010174L221.21232490207797,289.989043565L223.74369315541395,289.83875712L226.11174732788953,297.001379366L228.63971320454095,289.755567849L231.0894244174467,286.695971008L233.62079267078272,282.492422502L236.07050388368853,281.753489646L238.60187213702451,281.125581499L241.1332403903605,277.645086332L243.58295160326628,281.580189494L246.11772223328686,282.14707356L248.56743344619267,278.231529453L251.09880169952865,277.72968404799997L253.63016995286466,276.374867469L255.91656708491007,275.460982963L258.44453296156144,270.058865401L260.89424417446725,270.244213853L263.42561242780323,266.028762315L265.875323640709,253.955089367L268.40669189404497,258.458526815L270.938060147381,266.378183177L273.3877713602868,274.483589388L275.92254199030737,262.965838974L278.3722532032132,274.306090846L280.90362145654916,263.48066994100003L283.43498970988514,263.057274419L285.72138684193055,263.786315901L288.249352718582,272.025537576L290.6990639314878,263.834506703L293.23043218482377,259.395916016L295.6801433977295,255.022013874L298.2115116510655,260.99195539100003L300.7428799044015,231.925047372L303.1925911173073,231.190778302L305.7273617473279,239.758220634L308.17707296023366,238.676641933L310.70844121356964,243.68528897L313.2398094669057,237.027272036L315.5262065989511,245.250651329L318.05417247560246,230.644085262L320.50388368850827,218.94535175100003L323.03525194184425,200.04102793699997L325.48496315475006,204.093143666L328.01633140808605,207.584707857L330.54769966142203,202.212805678L332.9974108743278,184.593956438L335.5321815043484,180.652795112L337.9818927172542,142.119714443L340.5132609705902,182.92011019300003L343.04462922392617,178.16679314200002L345.4126833964018,190.69058968899998L347.94064927305317,183.015119744L350.390360485959,179.35838134699998L352.92172873929496,202.486591907L355.3714399522008,169.301706373L357.90280820553676,195.26303261200002L360.43417645887274,158.860764006L362.8838876717785,184.015483578L365.4186583017991,173.05190683599997L367.8683695147049,173.61103796999998L370.3997377680409,208.491551681L372.9311060213769,181.283365119L375.2175031534223,165.36770178L377.7454690300737,186.26040458799997L380.19518024297946,188.82963141099998L382.72654849631544,181.742239335L385.17625970922126,147.747881271L387.7076279625573,154.553513918L390.2389962158933,159.42492012800002L392.68870742879903,135.183961695L395.22347805881964,138.657404146L397.67318927172545,163.811472943L400.20455752506143,181.638240831L402.7359257783974,154.278386571L405.0223229104428,144.79393564L407.5502887870942,172.302571167L410,145.92087077899998"
+                data-legend="azure-pipelines" style="stroke: rgb(255, 127, 14); fill: none;" />
+        </g>
+    </g>
+    <g transform="translate(20, 150)"><text transform="rotate(-90)" x="-50" y="0" dy="1em"
+            class="axis-label y-axis-label" style="text-anchor: middle; font-weight: bold;">% of Stack Overflow
+            questions that month</text></g>
+    <g class="legend" transform="translate(530, 30)" style="font-size: 12px;"><text class="legend-title"
+            style="font-weight: bold;">Tag</text>
+        <g class="legend-items" transform="translate(0,20)"><text y="0em" x="1em">github-actions</text><text y="1em"
+                x="1em">azure-pipelines</text>
+            <circle cy="-0.25em" cx="0" r="0.4em" style="fill: rgb(31, 119, 180);" />
+            <circle cy="0.75em" cx="0" r="0.4em" style="fill: rgb(255, 127, 14);" />
+        </g>
+        <rect class="legend-box" />
+    </g>
+</svg>
