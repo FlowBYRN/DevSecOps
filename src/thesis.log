@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  24 JUN 2022 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  24 JUN 2022 15:32
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1099,10 +1099,9 @@ chapter 2.
  <./figures/statistic-ausgaben-it-sicherheit.png>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 15.
- [2]
+ [2] [3]
 chapter 3.
 chapter 4.
-[3]
 chapter 5.
 chapter 6.
 ) [4]
@@ -1181,24 +1180,24 @@ LaTeX Warning: Hyper reference `acro:bim' on page 5 undefined on input line 12.
 
 ]
 chapter B.
-<figures/statistic-it-projekte.png, id=105, 1003.75pt x 1197.47375pt>
+<figures/statistic-it-projekte.png, id=107, 1003.75pt x 1197.47375pt>
 File: figures/statistic-it-projekte.png Graphic file (type png)
 <use figures/statistic-it-projekte.png>
 Package pdftex.def Info: figures/statistic-it-projekte.png  used on input line 
 29.
 (pdftex.def)             Requested size: 455.24411pt x 543.11557pt.
-<figures/devops-important.png, id=106, 1003.75pt x 745.78625pt>
+<figures/devops-important.png, id=108, 1003.75pt x 745.78625pt>
 File: figures/devops-important.png Graphic file (type png)
 <use figures/devops-important.png>
 Package pdftex.def Info: figures/devops-important.png  used on input line 35.
 (pdftex.def)             Requested size: 455.24411pt x 338.2522pt.
-<figures/github_azuredevops.png, id=107, 662.475pt x 401.5pt>
+<figures/github_azuredevops.png, id=109, 662.475pt x 401.5pt>
 File: figures/github_azuredevops.png Graphic file (type png)
 <use figures/github_azuredevops.png>
 Package pdftex.def Info: figures/github_azuredevops.png  used on input line 41.
 
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-<figures/githubactions_azurepipelines.png, id=108, 662.475pt x 401.5pt>
+<figures/githubactions_azurepipelines.png, id=110, 662.475pt x 401.5pt>
 File: figures/githubactions_azurepipelines.png Graphic file (type png)
 <use figures/githubactions_azurepipelines.png>
 Package pdftex.def Info: figures/githubactions_azurepipelines.png  used on inpu
@@ -1244,13 +1243,13 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18337 strings out of 481556
- 342054 string characters out of 2909189
- 795810 words of memory out of 3000000
+ 18329 strings out of 481556
+ 341984 string characters out of 2909189
+ 796810 words of memory out of 3000000
  32846 multiletter control sequences out of 15000+200000
- 599500 words of font info for 277 fonts, out of 3000000 for 9000
+ 599054 words of font info for 271 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,20n,82p,10103b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,20n,82p,10103b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/base/8r.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Florian.Weidner/AppData/Loca
@@ -1259,9 +1258,9 @@ dner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
 Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatin
 o/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (13 pages, 356771 bytes).
+Output written on thesis.pdf (13 pages, 358309 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
  87178 words of extra memory for PDF output out of 89155 (max. 10000000)
 

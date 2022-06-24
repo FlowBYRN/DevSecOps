@@ -7,8 +7,8 @@
 \contentsline {section}{\numberline {2.2}Sicherheitsrisiken und Chancen mit DevOps}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Definition von DevSecOps}{3}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Praktiken von DevSecOps}{3}{section.2.4}%
-\contentsline {section}{\numberline {2.5}DevSecOps Kultur}{3}{section.2.5}%
-\contentsline {chapter}{\numberline {3}DevSecOps mit Github Actions}{3}{chapter.3}%
+\contentsline {section}{\numberline {2.5}DevSecOps Kultur}{4}{section.2.5}%
+\contentsline {chapter}{\numberline {3}DevSecOps mit Github Actions}{4}{chapter.3}%
 \contentsline {chapter}{\numberline {4}DevSecOps mit Azure DevOps}{4}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Vergleich von Github Actions und Azure DevOps}{4}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Fazit}{4}{chapter.6}%
