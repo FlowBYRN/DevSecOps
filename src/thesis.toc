@@ -4,12 +4,14 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Was bedeutet DevSecOps}{1}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Zusammenfassung DevOps}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Definition von DevSecOps}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}DevSecOps Kultur}{2}{section.2.3}%
-\contentsline {chapter}{\numberline {3}DevSecOps mit Github Actions}{2}{chapter.3}%
-\contentsline {chapter}{\numberline {4}DevSecOps mit Azure DevOps}{2}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Vergleich von Github Actions und Azure DevOps}{3}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Fazit}{3}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{4}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{5}{appendix.B}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{8}{chapter*.7}%
+\contentsline {section}{\numberline {2.2}Sicherheitsrisiken und Chancen mit DevOps}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Definition von DevSecOps}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Praktiken von DevSecOps}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}DevSecOps Kultur}{3}{section.2.5}%
+\contentsline {chapter}{\numberline {3}DevSecOps mit Github Actions}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}DevSecOps mit Azure DevOps}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Vergleich von Github Actions und Azure DevOps}{4}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Fazit}{4}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{5}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{6}{appendix.B}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{9}{chapter*.7}%

@@ -1,4 +1,4 @@
-\begin{thebibliography}{Mac20}
+\begin{thebibliography}{Mao20}
 
 \bibitem[Bee21]{git-ops}
 F.~Beetz und S.~Harrer.
@@ -17,5 +17,11 @@ R.~W. Macarthy und J.~M. Bass.
 \newblock An Empirical Taxonomy of DevOps in Practice.
 \newblock In \emph{2020 46th Euromicro Conference on Software Engineering and
   Advanced Applications (SEAA)}, S. 221--228. 2020.
+
+\bibitem[Mao20]{grey}
+R.~Mao, H.~Zhang, Q.~Dai, H.~Huang, G.~Rong, H.~Shen, L.~Chen und K.~Lu.
+\newblock Preliminary Findings about DevSecOps from Grey Literature.
+\newblock In \emph{2020 IEEE 20th International Conference on Software Quality,
+  Reliability and Security (QRS)}, S. 450--457. 2020.
 
 \end{thebibliography}
