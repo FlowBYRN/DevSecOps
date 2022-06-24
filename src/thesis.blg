@@ -1,58 +1,8 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 10 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: toc.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapters.aux
-Reallocating 'name_of_file' (item size: 1) to 11 items.
 A level-1 auxiliary file: append.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: eid.aux
 Database file #1: thesis.bib
-You've used 3 entries,
-            2811 wiz_defined-function locations,
-            617 strings with 5311 characters,
-and the built_in function-call counts, 1734 in all, are:
-= -- 147
-> -- 41
-< -- 6
-+ -- 15
-- -- 14
-* -- 103
-:= -- 224
-add.period$ -- 11
-call.type$ -- 3
-change.case$ -- 20
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 144
-empty$ -- 140
-format.name$ -- 23
-if$ -- 375
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 56
-preamble$ -- 1
-purify$ -- 22
-quote$ -- 0
-skip$ -- 73
-stack$ -- 0
-substring$ -- 90
-swap$ -- 83
-text.length$ -- 6
-text.prefix$ -- 3
-top$ -- 0
-type$ -- 24
-warning$ -- 0
-while$ -- 12
-width$ -- 4
-write$ -- 35
