@@ -19,6 +19,29 @@ M.~Cobb.
   Sept. 2019.
 \newblock Accessed: 2022-6-28.
 
+\bibitem[coda]{codeql}
+About {CodeQL}.
+\newblock \url{https://codeql.github.com/docs/codeql-overview/about-codeql/}.
+\newblock Accessed: 2022-6-28.
+
+\bibitem[codb]{codespaces-secrets}
+Managing encrypted secrets for your codespaces.
+\newblock
+  \url{https://docs.github.com/en/codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces}.
+\newblock Accessed: 2022-6-28.
+
+\bibitem[codc]{codespaces-logs}
+Reviewing your security logs for Codespaces.
+\newblock
+  \url{https://docs.github.com/en/codespaces/managing-your-codespaces/reviewing-your-security-logs-for-codespaces}.
+\newblock Accessed: 2022-6-28.
+
+\bibitem[codd]{code-scanning}
+Setting up code scanning for a repository.
+\newblock
+  \url{https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/setting-up-code-scanning-for-a-repository}.
+\newblock Accessed: 2022-6-28.
+
 \bibitem[git]{github-securitylab}
 {GitHub} security lab.
 \newblock \url{https://securitylab.github.com/}.
@@ -55,6 +78,12 @@ F.~Migacz.
 \newblock {DevSecOps} mit {GitHub} Security.
 \newblock
   \url{https://docs.microsoft.com/de-de/azure/architecture/solution-ideas/articles/devsecops-in-github}.
+\newblock Accessed: 2022-6-28.
+
+\bibitem[sec]{secret-scanning}
+About Secret Scanning.
+\newblock
+  \url{https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning}.
 \newblock Accessed: 2022-6-28.
 
 \end{thebibliography}

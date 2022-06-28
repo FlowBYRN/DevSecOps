@@ -1,6 +1,6 @@
 \chapter{Einleitung}
 IT-Sicherheit wird in der Software Entwicklung ein immer wichtigeres  Thema. In Abbildung \ref{FIG:statistic-ausgaben-it-sicherheit} ist der Anstieg der Ausgaben für IT-Sicherheit zu sehen. Dieser ist in den vergangen Jahren kontinuierlich gestiegen und auch in der Zukunft sollen die Ausgaben im Jahr 2025 im Vergleich zu 2020 um 57.5\% steigen. Das zeigt das vielen Unternehmen die IT-Sicherheit immer wichtiger wird. Die dafür anfallenden Kosten sollen aber natürlich trotzdem immer möglichst gering bleiben.
-DevOps ist mittlerweile eine verbreitete und viel genutzte Entwicklungsmethode (siehe Abb. \ref{FIG:devops-important}) um den Entwicklungsprozess zu beschleunigen und somit auch Kosten zu sparen. Um den It-Sicherheitsaspekt einfach in die Softwareentwicklung zu integrieren wurde so DevSecOps erschaffen. Der Prozess vereint DevOps mit Sicherheitsverfahren. \cite{security-model}
+DevOps ist mittlerweile eine verbreitete und viel genutzte Entwicklungsmethode (siehe Abb. \ref{FIG:devops-important}) um den Entwicklungsprozess zu beschleunigen und somit auch Kosten zu sparen. Um den IT-Sicherheitsaspekt einfach in die Softwareentwicklung zu integrieren wurde so DevSecOps erschaffen. Der Prozess vereint DevOps mit Sicherheitsverfahren. \cite{security-model}
 Zwei der größten Plattformen für DevOps sind GitHub und Azure DevOps. GitHub liefert GitHub Actions und Azure DevOps bietet Azure Pipelines um Operationen aus dem DevOps Prozess zu automatisieren. Diese Frage ist welches Tool den DevSecOps Prozess am besten integriert um sichere Software zu erstellen.
 
 
@@ -41,7 +41,7 @@ Nachdem der Code eingecheckt wurde sollten beim Erstellen der Software automatis
 Auch die automatisierte Bereitstellung der Infrastrukur ist ein wichtiger Teil, der gesichert sein muss und auch essenzielle Auswirkungen auf das komplette System hat.
 Hier sind Themen wie Secrets Management, Configuration Management oder Version Control wichtige Aspekte, um die man sich kümmern muss.\cite{grey}
 
-\cite{security-model} entwickelte ein Security Model um Sicherheitspraktiken in die komplette Infrastrukturbereitstellung zu bringen. Nachdem ein statischer Analyse Security Scanner den Terraform Code analysiert hat, wird der dieser in einen verschlüsselten Objektspeicher in der Cloud ausgeführt. Hier werden alle benötigten SSH Schlüssel automatisch runter geladen. Die von Terraform erstellten IP-Adressen der Infrastruktur werden an Ansible gesendet welches die erstellten Server dann konfiguriert. Am Ende werden alle Geheimnisse von den Servern gelöscht. So wird eine sichere Bereitstellung der Infrastruktur gewährleistet.
+\cite{security-model} entwickelte ein Security Model um Sicherheitspraktiken in die komplette Infrastrukturbereitstellung zu bringen. Nachdem ein statischer Analyse Security Scanner den Terraform Code analysiert hat, wird der dieser in einen verschlüsselten Objektspeicher in der Cloud ausgeführt. Hier werden alle benötigten \ac{ssh} Schlüssel automatisch runter geladen. Die von Terraform erstellten IP-Adressen der Infrastruktur werden an Ansible gesendet welches die erstellten Server dann konfiguriert. Am Ende werden alle Geheimnisse von den Servern gelöscht. So wird eine sichere Bereitstellung der Infrastruktur gewährleistet.
 
 Wenn die Applikation dann auf einer Testumgebung installiert wurde sollen statische und dynamische Security Tests laufen. Auch automatisierte Attacken sollen Bestandteil des automatischen Testzyklus sein.
 Im Livebetrieb der Software sollen regelmäßig automatische Sicherheitschecks und Überwachung des Systems stattfinden, um einen Einblick in den Datenverkehr zu bekommen und eventuell bösartige Benutzerverhalten aufdecken zu können.
@@ -75,6 +75,21 @@ Durch Pull Requests können weitere automatisierte Tests ausgeführt werden. Au�
 Microsoft Defender for Cloud identifiziert Attacken in bereitgestellten Projekten
 Durch den Azrure Monitor können regelmäßig das Verhalten der laufenden Software überwacht evaluiert und Auffälligkeiten automatisch gemeldet werden.\cite{devsecops-github}
 
+\section{Codespaces}
+GitHub Codespaces bietet eine Softwareentwicklungsumgebung, die komplett in der Cloud läuft. Visual Studio Code ist so mit Terminal und Debugger im Browser nutzbar. Neben der hohen Skalierbarkeit und Standardisierung der Entwicklungsumgebung bietet das auch Sicherheitsvorteile. Visual Studio Code bietet hier viele Security Scanning Erweiterungen, die den Entwicklungsprozess sicherer machen. Codespaces bieten Security Logs, in denen festgestellt werden kann wer wann von wo mit der Entwicklungsumgebung gearbeitet hat. \cite{codespaces-logs} Außerdem kann man sensitive Daten (Secrets) verschlüsselt und sicher in den Umgebungsvariablen der Codespaces speichern. \cite{codespaces-secrets}
+\section{Secret Scanning}
+
+Token oder private Schlüssel zur Kommunikation mit externen Services sollten immer geheim gehalten werden. Solche Secrets in einem öffentlichen Repository zu speichern ist demnach fatal für die Sicherheit der Anwendung. Dennoch kann es immer wieder passieren, das Secrets aus versehen eingecheckt werden. GitHub bietet hier ein Secret Scanning über GitHub Actions an. Dieses läuft automatisch bei öffentlichen Repositories und kann mit Github Advanced Security noch mit weiteren Secrets-Übereinstimmungsmustern erweitert werden. \cite{secret-scanning}
+
+\section{Code Scanning}
+Automatisierte Security Code Analysen sind ein wichtiger Schritt im DevSecOps Prozess um Schwachstellen möglichst früh zu erkennen. GitHub bietet mit Code Scanning eine Möglichkeit über GitHub Actions verschiedene Workflows zu definieren, die Analysen druchführen. Es gibt im Moment 52 schon vordefinierte Workflows zum Thema Security, die zur Verfügung stehen. Neben dem eigenen Code Analyse Tool CodeQL können auch viele weitere externe Tools eingebunden werden.\cite{code-scanning} CodeQL kann Sicherheitsschwachstellen und generische Softwarefehler für die Sprachen C/C++, C\#, Go, Java, JavaScript, Python, Ruby, Typescript identifizieren. Man kann mit der Query Language Code wie Daten behandeln und Sicherheitslücken werden als Abfragen modelliert, welche dann bei der Analyse ausgeführt werden können. Hier gibt es schon standardisierte Abfragen von der Github Community, man kann aber auch eigene Abfragen für die Analyse erstellen. \cite{codeql}
+
+Alle gefundenen Schwachstellen werden dann im GitHub Repository unter dem Tab Security mit jeweiligen Schweregraden aufgelistet. Man wird direkt zur Codestelle weitergeleitet und die Schwachstelle wird beschrieben und direkt eine Empfehlung abgegeben um das Problem zu lösen.Es werden auch dirket passende \ac{cwe} Vulnerabilities mit angegeben um weiter über die Schwachstelle Recherchieren zu können. \cite{code-scanning}
+
+Eine weiterer Workflow der durch GitHub Actions zur Verfügung steht ist eine Dependency Review. Dieser Workflow analysiert alle Abhängigkeiten und möglich folgende Sicherheitsauswirkungen. Man hat also nicht nur einen Überblick wann sich welche Abhängigkeiten ändern sondern bekommt auch direkt Informationen ob die genutzten Pakete eventuelle Sicherheitsschwachstellen haben.
+Für alle öffentlichen Repositories wird automatisch bei jedem Pull Request ein Dependecy Graph erstellt, der alle Abhängigkeiten mit kompatiblen Packagemanagement Systemen beinhaltet.
+Zusätzlich gibt es den GitHub Dependabot. Dieser Analyseservice läuft in jedem öffentlichen Repository wenn man die Funktion aktiviert hat. Er erkennt alle Codeabhängigkeiten mit Sicherheitsschwachstellen. Es werden alle hinzugefügten, geänderten oder gelöschten Abhänigkeiten in einem Pull Request analysiert und dann im Security Tab des GitHub Repositories als Alert bereitgestellt.
+
 \section{Github Security Lab}
 Mit dem GitHub Security Lab bietet die Plattform ein Portal, auf dem sie versuchen User zu inspirieren und es ihnen ermöglichen leichter sichere Open Source Software zu implementieren. 
 Auf der Plattform können Schwachstellen von großen, wichtigen Open Source Projekten berichtet werden. Das Portal koordiniert dann die Offenlegung der Schwachstellen mit den Sicherheitsteam der betroffenen Projekte. Es werden zusätzlich verschiedene Analysen mit CodeQL, einer semantischen Code-Analyse-Engine durchgeführt um die Sicherheitsforschung für Open Source Projekte zu vergrößern. Zusätzlich werden Common Vulnerabilities und Exposures in einer Datenbank gesammelt.
@@ -83,6 +98,9 @@ Es werden auch mit dem so genannten \glqq CodeQL Bug Bounty program\grqq immer w
 
 
 \chapter{Vergleich von Github Actions und Azure DevOps}
+
+\section{Kosten}
+GitHub bietet viel kostenlose für Open Source Repositories an. Um aber den kompletten DevSecOps Prozess abzudecken ist GitHub Enterprise nötig.
 
 \chapter{Fazit}
 Github ist am Aufstreben blablabla

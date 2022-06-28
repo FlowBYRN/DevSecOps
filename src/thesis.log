@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  28 JUN 2022 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  28 JUN 2022 16:34
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1085,7 +1085,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 8.
-<figures/statistic-ausgaben-it-sicherheit.png, id=66, 1003.75pt x 745.78625pt>
+<figures/statistic-ausgaben-it-sicherheit.png, id=74, 1003.75pt x 745.78625pt>
 File: figures/statistic-ausgaben-it-sicherheit.png Graphic file (type png)
 <use figures/statistic-ausgaben-it-sicherheit.png>
 Package pdftex.def Info: figures/statistic-ausgaben-it-sicherheit.png  used on 
@@ -1099,122 +1099,62 @@ chapter 2.
  <./figures/statistic-ausgaben-it-sicherheit.png>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 15.
- [2] [3]
+ [2]
+Package acronym Info: Label `acro:ssh' newly defined as it shall be overridden
+although it is yet undefined on input line 44.
+ [3]
 chapter 3.
 chapter 4.
-<figures/devsecops-in-github.png, id=100, 993.7125pt x 767.86874pt>
+<figures/devsecops-in-github.png, id=111, 993.7125pt x 767.86874pt>
 File: figures/devsecops-in-github.png Graphic file (type png)
 <use figures/devsecops-in-github.png>
 Package pdftex.def Info: figures/devsecops-in-github.png  used on input line 66
 .
 (pdftex.def)             Requested size: 455.24411pt x 351.78275pt.
 [4] [5 <./figures/devsecops-in-github.png>]
+Package acronym Info: Label `acro:cwe' newly defined as it shall be overridden
+although it is yet undefined on input line 87.
+ [6]
 chapter 5.
 chapter 6.
-) [6]
+) [7]
 \openout2 = `append.aux'.
 
  (append.tex
 chapter A.
-
-LaTeX Warning: Hyper reference `acro:maui' on page 7 undefined on input line 4.
-
-
-
-LaTeX Warning: Hyper reference `acro:maui' on page 7 undefined on input line 4.
-
-
-
-LaTeX Warning: Hyper reference `acro:owin' on page 7 undefined on input line 5.
-
-
-
-LaTeX Warning: Hyper reference `acro:owin' on page 7 undefined on input line 5.
-
-
-
-LaTeX Warning: Hyper reference `acro:wpf' on page 7 undefined on input line 6.
-
-
-LaTeX Warning: Hyper reference `acro:wpf' on page 7 undefined on input line 6.
-
-
-LaTeX Warning: Hyper reference `acro:vb6' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:vb6' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:http' on page 7 undefined on input line 8.
-
-
-
-LaTeX Warning: Hyper reference `acro:http' on page 7 undefined on input line 8.
-
-
-
-LaTeX Warning: Hyper reference `acro:gui' on page 7 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:gui' on page 7 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:ava' on page 7 undefined on input line 10.
-
-
-
-LaTeX Warning: Hyper reference `acro:ava' on page 7 undefined on input line 10.
-
-
-
-LaTeX Warning: Hyper reference `acro:hoai' on page 7 undefined on input line 11
-.
-
-
-LaTeX Warning: Hyper reference `acro:hoai' on page 7 undefined on input line 11
-.
-
-
-LaTeX Warning: Hyper reference `acro:bim' on page 7 undefined on input line 12.
-
-
-
-LaTeX Warning: Hyper reference `acro:bim' on page 7 undefined on input line 12.
-
-
-[7
+[8
 
 
 ]
 chapter B.
-<figures/statistic-it-projekte.png, id=136, 1003.75pt x 1197.47375pt>
+<figures/statistic-it-projekte.png, id=160, 1003.75pt x 1197.47375pt>
 File: figures/statistic-it-projekte.png Graphic file (type png)
 <use figures/statistic-it-projekte.png>
 Package pdftex.def Info: figures/statistic-it-projekte.png  used on input line 
-29.
+23.
 (pdftex.def)             Requested size: 455.24411pt x 543.11557pt.
-<figures/devops-important.png, id=137, 1003.75pt x 745.78625pt>
+<figures/devops-important.png, id=161, 1003.75pt x 745.78625pt>
 File: figures/devops-important.png Graphic file (type png)
 <use figures/devops-important.png>
-Package pdftex.def Info: figures/devops-important.png  used on input line 35.
+Package pdftex.def Info: figures/devops-important.png  used on input line 29.
 (pdftex.def)             Requested size: 455.24411pt x 338.2522pt.
-<figures/github_azuredevops.png, id=138, 662.475pt x 401.5pt>
+<figures/github_azuredevops.png, id=162, 662.475pt x 401.5pt>
 File: figures/github_azuredevops.png Graphic file (type png)
 <use figures/github_azuredevops.png>
-Package pdftex.def Info: figures/github_azuredevops.png  used on input line 41.
+Package pdftex.def Info: figures/github_azuredevops.png  used on input line 35.
 
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-<figures/githubactions_azurepipelines.png, id=139, 662.475pt x 401.5pt>
+<figures/githubactions_azurepipelines.png, id=163, 662.475pt x 401.5pt>
 File: figures/githubactions_azurepipelines.png Graphic file (type png)
 <use figures/githubactions_azurepipelines.png>
 Package pdftex.def Info: figures/githubactions_azurepipelines.png  used on inpu
-t line 42.
+t line 36.
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-) [8
+) [9
 
- <./figures/statistic-it-projekte.png>] [9 <./figures/devops-important.png>] [1
-0 <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.pn
-g>] (thesis.bbl
+ <./figures/statistic-it-projekte.png>] [10 <./figures/devops-important.png>] [
+11 <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.p
+ng>] (thesis.bbl
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
 .
@@ -1245,28 +1185,76 @@ pplx/m/n/10.95 (+20) , Sept. 2019.  Ac-ces-sed:
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 35--40
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+[]\T1/pplx/m/n/10.95 (+20) Managing en-cryp-ted se-crets for your co-de-spaces.
+  []$\T1/pcr/m/n/10.95 https : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\T1/pcr/m/n/10.95 docs . github . com / en / codespaces / managing-[]your-[]cod
+espaces /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+[]\T1/pplx/m/n/10.95 (+20) Reviewing your se-cu-ri-ty logs for Co-de-spaces.  [
+]$\T1/pcr/m/n/10.95 https : / / docs .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+\T1/pcr/m/n/10.95 github . com / en / codespaces / managing-[]your-[]codespaces
+ /
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 34--38
+\T1/pcr/m/n/10.95 reviewing-[]your-[]security-[]logs-[]for-[]codespaces$[]\T1/p
+plx/m/n/10.95 (+20) .  Ac-ces-sed: 2022-6-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+[]\T1/pplx/m/n/10.95 (+20) Setting up co-de scan-ning for a re-po-si-to-ry.  []
+$\T1/pcr/m/n/10.95 https : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\T1/pcr/m/n/10.95 docs . github . com / en / code-[]security / code-[]scanning 
+/
+ []
+
+
+Overfull \hbox (15.69989pt too wide) in paragraph at lines 40--44
+\T1/pcr/m/n/10.95 automatically-[]scanning-[]your-[]code-[]for-[]vulnerabilitie
+s-[]and-[]errors /
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 58--63
 []\T1/pplx/m/n/10.95 (+20) Justinha.  Kenn-wort-lo-se Azu-re Ac-ti-ve Directory
 -Anmeldung - Mi-cro-soft
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 35--40
+Underfull \hbox (badness 7433) in paragraph at lines 58--63
 \T1/pcr/m/n/10.95 authentication / concept-[]authentication-[]passwordless$[]\T
 1/pplx/m/n/10.95 (+20) .  Ac-ces-sed:
  []
 
+[12
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 \T1/pcr/m/n/10.95 com / de-[]de / azure / architecture / solution-[]ideas / art
 icles /
  []
 
-) [11
-
-
-
-] (thesis.ind)
+) [13] (thesis.ind)
 \openout2 = `eid.aux'.
 
  (eid.tex
@@ -1286,23 +1274,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18426 strings out of 481556
- 343311 string characters out of 2909189
+ 18443 strings out of 481556
+ 343620 string characters out of 2909189
  797810 words of memory out of 3000000
- 32892 multiletter control sequences out of 15000+200000
- 601604 words of font info for 299 fonts, out of 3000000 for 9000
+ 32895 multiletter control sequences out of 15000+200000
+ 602050 words of font info for 305 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,20n,82p,10103b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,20n,82p,10103b,777s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/base/8r.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Florian.Weidner/AppData/Loca
@@ -1312,9 +1296,9 @@ sers/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (15 pages, 431558 bytes).
+Output written on thesis.pdf (17 pages, 445897 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 87711 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 87743 words of extra memory for PDF output out of 89155 (max. 10000000)
 

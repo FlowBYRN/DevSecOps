@@ -6,5 +6,10 @@ A level-1 auxiliary file: append.aux
 The style file: natger.bst
 A level-1 auxiliary file: eid.aux
 Database file #1: thesis.bib
+Warning--to sort, need author or key in codespaces-logs
+Warning--to sort, need author or key in codespaces-secrets
+Warning--to sort, need author or key in secret-scanning
+Warning--to sort, need author or key in code-scanning
+Warning--to sort, need author or key in codeql
 Warning--to sort, need author or key in github-securitylab
-(There was 1 warning)
+(There were 6 warnings)
