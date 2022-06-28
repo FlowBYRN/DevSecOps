@@ -1,4 +1,10 @@
-\begin{thebibliography}{Mao20}
+\begin{thebibliography}{Ahm19}
+
+\bibitem[Ahm19]{devsecops-techniques}
+Z.~Ahmed und S.~C. Francis.
+\newblock Integrating Security with DevSecOps: Techniques and Challenges.
+\newblock In \emph{2019 International Conference on Digitization (ICD)}, S.
+  178--182. 2019.
 
 \bibitem[Bee21]{git-ops}
 F.~Beetz und S.~Harrer.
@@ -13,12 +19,24 @@ M.~Cobb.
   Sept. 2019.
 \newblock Accessed: 2022-6-28.
 
+\bibitem[git]{github-securitylab}
+{GitHub} security lab.
+\newblock \url{https://securitylab.github.com/}.
+\newblock Accessed: 2022-6-28.
+
 \bibitem[Ibr22]{security-model}
 A.~Ibrahim, A.~H. Yousef und W.~Medhat.
 \newblock DevSecOps: A Security Model for Infrastructure as Code Over the
   Cloud.
 \newblock In \emph{2022 2nd International Mobile, Intelligent, and Ubiquitous
   Computing Conference (MIUCC)}, S. 284--288. 2022.
+
+\bibitem[{Jus}]{fido2}
+{Justinha}.
+\newblock Kennwortlose Azure Active {Directory-Anmeldung} - Microsoft Entra.
+\newblock
+  \url{https://docs.microsoft.com/de-DE/azure/active-directory/authentication/concept-authentication-passwordless}.
+\newblock Accessed: 2022-6-28.
 
 \bibitem[Mac20]{dev-ops}
 R.~W. Macarthy und J.~M. Bass.

@@ -28,6 +28,7 @@ Feste, Zentrale und Standardisierte Bereitstellungspipelines helfen dem Security
 
 \section{Definition von DevSecOps}
 Der Begriff DevSecOps baut auf den Prinzipien und Praktiken von DevOps auf und fügt den Sicherheitsaspekt in der Entwicklung noch weiter in den Vordergrund. Es ist also eine Erweiterung des DevOps Prozesses. Durch DevSecOps soll IT-Security schon vom Start eines Projektes mitgeplant und auch in Bereitstellungsprozess integriert werden. Allerdings reicht es nicht, die Sicherheitsaspekte nur in frühere Phasen der Entwicklung zu verschieben. Es soll eine durchgängige Sicherheit durch ständiges Dazulernen und Verbessern des Sicherheitsprozesses im ganzen Projekt und dessen Bereitstellung entstehen. \cite{grey}
+Am Ende ist also das ganze Team für die Applikationssicherheit verantwortlich und Probleme sollen auch im Team angegangen werden. \cite{devsecops-techniques}
 
 Eine technologische Rahmenbedingungen für DevSecOps ist das Bedürfnis für die Automatisierung von Sicherheitsaufgaben im Entwicklungsprozess. Das Einbauen von Sicherheitschecks in die Bereitstellungspipelines reduzieren Zeit und Kosten von Fehlern, die sonst manuell gefunden werden müssen. Zusätzlich wird die IT-Sicherheit in den kompletten Lebenszyklus einer Software integriert und somit können auch Entwickler ohne viel Wissen über IT-Security einfach die automatischen Pipelines nutzen. Das selbe gilt auch für die Bereitstellung der Infrastruktur. Infrastrucutre as Code muss auch eine sichere und zuverlässige Bereitstellung liefern, um auch hier Sicherheitslücken zu vermeiden. \cite{grey}.
 
@@ -58,8 +59,27 @@ Ein DevSecOps Engineer setzt auf den Beruf eines DevOps Engineers mit dem Fokus 
 
 \chapter{DevSecOps mit Github Actions}
 
-\section{Sicherheitsfunktionen}
-\cite{devsecops-github}
+\section{Zusammenfassung der Sicherheitsfunktionen}
+\begin{figure}[H]
+	{\caption{Architektur von GitHub für DevSecOps Prozess}
+		\label{FIG:devsecops-in-github}}
+	{\includegraphics[width=1\textwidth]{figures/devsecops-in-github.png}}
+\end{figure}
+GitHub bietet mit GitHub Security ein Konzept DevSecOps abzubilden und in den Entwicklungsprozess zu integrieren. Der Aufbau ist in Abbildung \ref{FIG:devsecops-in-github} zu sehen und im folgendem Abschnitt grob beschrieben.
+
+Wenn Entwickler auf GitHub Ressourcen zugreifen, müssen sie eine Authentifizierung über eine Azure Actice Directory durchlaufen. Hier wird eine sichere kennwortlose  FIDO2-Authentifizierung verwendet, die nach aktuellen Standards entspricht. \cite{fido2}
+Mit GitHub Codespaces können Entwickler auf vordefinierte Entwicklungsumgebungen in Containern zugreifen, die mit erforderlichen Erweiterungen für Sicherheitsscans ausgestattet sind.
+Durch GitHub Actions können automatisch Codierungsfehler und Schwachstellen durch automatische Scans beim Einchecken ermittelt werden.
+Außerdem können die Bildartefakte direkt in einen Azure App Service deployed werden.
+Durch Pull Requests können weitere automatisierte Tests ausgeführt werden. Außerdem bietet es eine gute Platform um Code Reviews durchzuführen.
+Microsoft Defender for Cloud identifiziert Attacken in bereitgestellten Projekten
+Durch den Azrure Monitor können regelmäßig das Verhalten der laufenden Software überwacht evaluiert und Auffälligkeiten automatisch gemeldet werden.\cite{devsecops-github}
+
+\section{Github Security Lab}
+Mit dem GitHub Security Lab bietet die Plattform ein Portal, auf dem sie versuchen User zu inspirieren und es ihnen ermöglichen leichter sichere Open Source Software zu implementieren. 
+Auf der Plattform können Schwachstellen von großen, wichtigen Open Source Projekten berichtet werden. Das Portal koordiniert dann die Offenlegung der Schwachstellen mit den Sicherheitsteam der betroffenen Projekte. Es werden zusätzlich verschiedene Analysen mit CodeQL, einer semantischen Code-Analyse-Engine durchgeführt um die Sicherheitsforschung für Open Source Projekte zu vergrößern. Zusätzlich werden Common Vulnerabilities und Exposures in einer Datenbank gesammelt.
+Außerdem werden viele Forschungen, Tutorials, Artikel oder Konferenzen veröffentlicht und der Community bereitgestellt.
+Es werden auch mit dem so genannten \glqq CodeQL Bug Bounty program\grqq immer wieder Prämien ausgeschrieben, um Sicherheitsforschung in der Community zu verstärken. Die Plattform bietet also über die technischen Funktionen von GitHub hinaus, die Möglichkeit für Entwickler sich über IT-Sicherheit zu vernetzten, zu lernen oder sich an der Sicherheitsforschung für Open Source Projekte zu beteiligen. \cite{github-securitylab}
 
 
 \chapter{Vergleich von Github Actions und Azure DevOps}

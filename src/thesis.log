@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  28 JUN 2022 10:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  28 JUN 2022 13:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1085,7 +1085,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 8.
-<figures/statistic-ausgaben-it-sicherheit.png, id=62, 1003.75pt x 745.78625pt>
+<figures/statistic-ausgaben-it-sicherheit.png, id=66, 1003.75pt x 745.78625pt>
 File: figures/statistic-ausgaben-it-sicherheit.png Graphic file (type png)
 <use figures/statistic-ausgaben-it-sicherheit.png>
 Package pdftex.def Info: figures/statistic-ausgaben-it-sicherheit.png  used on 
@@ -1102,115 +1102,121 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [2] [3]
 chapter 3.
 chapter 4.
+<figures/devsecops-in-github.png, id=100, 993.7125pt x 767.86874pt>
+File: figures/devsecops-in-github.png Graphic file (type png)
+<use figures/devsecops-in-github.png>
+Package pdftex.def Info: figures/devsecops-in-github.png  used on input line 66
+.
+(pdftex.def)             Requested size: 455.24411pt x 351.78275pt.
+[4] [5 <./figures/devsecops-in-github.png>]
 chapter 5.
-[4]
 chapter 6.
-) [5]
+) [6]
 \openout2 = `append.aux'.
 
  (append.tex
 chapter A.
 
-LaTeX Warning: Hyper reference `acro:maui' on page 6 undefined on input line 4.
+LaTeX Warning: Hyper reference `acro:maui' on page 7 undefined on input line 4.
 
 
 
-LaTeX Warning: Hyper reference `acro:maui' on page 6 undefined on input line 4.
+LaTeX Warning: Hyper reference `acro:maui' on page 7 undefined on input line 4.
 
 
 
-LaTeX Warning: Hyper reference `acro:owin' on page 6 undefined on input line 5.
+LaTeX Warning: Hyper reference `acro:owin' on page 7 undefined on input line 5.
 
 
 
-LaTeX Warning: Hyper reference `acro:owin' on page 6 undefined on input line 5.
+LaTeX Warning: Hyper reference `acro:owin' on page 7 undefined on input line 5.
 
 
 
-LaTeX Warning: Hyper reference `acro:wpf' on page 6 undefined on input line 6.
+LaTeX Warning: Hyper reference `acro:wpf' on page 7 undefined on input line 6.
 
 
-LaTeX Warning: Hyper reference `acro:wpf' on page 6 undefined on input line 6.
+LaTeX Warning: Hyper reference `acro:wpf' on page 7 undefined on input line 6.
 
 
-LaTeX Warning: Hyper reference `acro:vb6' on page 6 undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:vb6' on page 7 undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:vb6' on page 6 undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:vb6' on page 7 undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:http' on page 6 undefined on input line 8.
-
-
-
-LaTeX Warning: Hyper reference `acro:http' on page 6 undefined on input line 8.
+LaTeX Warning: Hyper reference `acro:http' on page 7 undefined on input line 8.
 
 
 
-LaTeX Warning: Hyper reference `acro:gui' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:gui' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:ava' on page 6 undefined on input line 10.
+LaTeX Warning: Hyper reference `acro:http' on page 7 undefined on input line 8.
 
 
 
-LaTeX Warning: Hyper reference `acro:ava' on page 6 undefined on input line 10.
+LaTeX Warning: Hyper reference `acro:gui' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Hyper reference `acro:gui' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Hyper reference `acro:ava' on page 7 undefined on input line 10.
 
 
 
-LaTeX Warning: Hyper reference `acro:hoai' on page 6 undefined on input line 11
+LaTeX Warning: Hyper reference `acro:ava' on page 7 undefined on input line 10.
+
+
+
+LaTeX Warning: Hyper reference `acro:hoai' on page 7 undefined on input line 11
 .
 
 
-LaTeX Warning: Hyper reference `acro:hoai' on page 6 undefined on input line 11
+LaTeX Warning: Hyper reference `acro:hoai' on page 7 undefined on input line 11
 .
 
 
-LaTeX Warning: Hyper reference `acro:bim' on page 6 undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:bim' on page 7 undefined on input line 12.
 
 
 
-LaTeX Warning: Hyper reference `acro:bim' on page 6 undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:bim' on page 7 undefined on input line 12.
 
 
-[6
+[7
 
 
 ]
 chapter B.
-<figures/statistic-it-projekte.png, id=119, 1003.75pt x 1197.47375pt>
+<figures/statistic-it-projekte.png, id=136, 1003.75pt x 1197.47375pt>
 File: figures/statistic-it-projekte.png Graphic file (type png)
 <use figures/statistic-it-projekte.png>
 Package pdftex.def Info: figures/statistic-it-projekte.png  used on input line 
 29.
 (pdftex.def)             Requested size: 455.24411pt x 543.11557pt.
-<figures/devops-important.png, id=120, 1003.75pt x 745.78625pt>
+<figures/devops-important.png, id=137, 1003.75pt x 745.78625pt>
 File: figures/devops-important.png Graphic file (type png)
 <use figures/devops-important.png>
 Package pdftex.def Info: figures/devops-important.png  used on input line 35.
 (pdftex.def)             Requested size: 455.24411pt x 338.2522pt.
-<figures/github_azuredevops.png, id=121, 662.475pt x 401.5pt>
+<figures/github_azuredevops.png, id=138, 662.475pt x 401.5pt>
 File: figures/github_azuredevops.png Graphic file (type png)
 <use figures/github_azuredevops.png>
 Package pdftex.def Info: figures/github_azuredevops.png  used on input line 41.
 
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-<figures/githubactions_azurepipelines.png, id=122, 662.475pt x 401.5pt>
+<figures/githubactions_azurepipelines.png, id=139, 662.475pt x 401.5pt>
 File: figures/githubactions_azurepipelines.png Graphic file (type png)
 <use figures/githubactions_azurepipelines.png>
 Package pdftex.def Info: figures/githubactions_azurepipelines.png  used on inpu
 t line 42.
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-) [7
+) [8
 
- <./figures/statistic-it-projekte.png>] [8 <./figures/devops-important.png>] [9
- <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.png
->] (thesis.bbl
+ <./figures/statistic-it-projekte.png>] [9 <./figures/devops-important.png>] [1
+0 <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.pn
+g>] (thesis.bbl
 chapter without number
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
 .
 
 ("C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t
@@ -1222,35 +1228,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 []\T1/pplx/m/n/10.95 (+20) M. Cobb.  What it ta-kes to be a DevSe-cOps en-gi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
 \T1/pplx/m/n/10.95 (+20) neer.  []$\T1/pcr/m/n/10.95 https : / / www . techtarg
 et . com / searchsecurity / tip /
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 9--15
+Underfull \hbox (badness 3503) in paragraph at lines 15--21
 \T1/pcr/m/n/10.95 What-[]it-[]takes-[]to-[]be-[]a-[]DevSecOps-[]engineer$[]\T1/
 pplx/m/n/10.95 (+20) , Sept. 2019.  Ac-ces-sed:
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 36--41
-[]\T1/pplx/m/n/10.95 (+20) F. Mi-gacz.  DevSe-cOps mit GitHub Se-cu-ri-ty.  []$
-\T1/pcr/m/n/10.95 https : / / docs . microsoft .
+Underfull \hbox (badness 3612) in paragraph at lines 35--40
+[]\T1/pplx/m/n/10.95 (+20) Justinha.  Kenn-wort-lo-se Azu-re Ac-ti-ve Directory
+-Anmeldung - Mi-cro-soft
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 7433) in paragraph at lines 35--40
+\T1/pcr/m/n/10.95 authentication / concept-[]authentication-[]passwordless$[]\T
+1/pplx/m/n/10.95 (+20) .  Ac-ces-sed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--59
 \T1/pcr/m/n/10.95 com / de-[]de / azure / architecture / solution-[]ideas / art
 icles /
  []
 
-) [10
+) [11
 
 
 
@@ -1284,11 +1296,11 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18402 strings out of 481556
- 342894 string characters out of 2909189
- 796810 words of memory out of 3000000
- 32881 multiletter control sequences out of 15000+200000
- 601236 words of font info for 294 fonts, out of 3000000 for 9000
+ 18426 strings out of 481556
+ 343311 string characters out of 2909189
+ 797810 words of memory out of 3000000
+ 32892 multiletter control sequences out of 15000+200000
+ 601604 words of font info for 299 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,20n,82p,10103b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -1300,9 +1312,9 @@ sers/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (14 pages, 375717 bytes).
+Output written on thesis.pdf (15 pages, 431558 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 87698 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 87711 words of extra memory for PDF output out of 89155 (max. 10000000)
 
