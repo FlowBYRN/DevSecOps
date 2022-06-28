@@ -27,30 +27,40 @@ DevOps liefert aber auch Chancen um IT-Sicherheit in den Entwicklungsprozess zu 
 Feste, Zentrale und Standardisierte Bereitstellungspipelines helfen dem Security Team einen besseren Blick über die Anwendung und wie diese erstellt wird zu bekommen. Hier können dann verschieden Sicherheitsaspekte in die Pipeline eingebaut werden. DevOps bietet hier also schon einige Möglichkeiten IT-Sicherheit schon in den DevOps Prozess zu integrieren. \cite{grey}
 
 \section{Definition von DevSecOps}
-Der Begriff DevSecOps baut auf den Prinzipien und Praktiken von DevOps auf und fügt den Sicherheitsaspekt in der Entwicklung noch weiter in den Vordergrund. Es ist also eine Erweiterung des DevOps Prozesses. Durch DevSecOps soll IT-Security schon vom Start eines Projektes mitgeplant und auch in Bereitstellungsprozess integriert werden. Allerdings reicht auch nicht die Sicherheitsaspekte nur in frühere Phasen der Entwicklung zu verschieben, sondern durchgängige Sicherheit entsteht nur durch ständiges Dazulernen und Verbessern im ganzen Projekt und der Bereitstellung. \cite{grey}
+Der Begriff DevSecOps baut auf den Prinzipien und Praktiken von DevOps auf und fügt den Sicherheitsaspekt in der Entwicklung noch weiter in den Vordergrund. Es ist also eine Erweiterung des DevOps Prozesses. Durch DevSecOps soll IT-Security schon vom Start eines Projektes mitgeplant und auch in Bereitstellungsprozess integriert werden. Allerdings reicht es nicht, die Sicherheitsaspekte nur in frühere Phasen der Entwicklung zu verschieben. Es soll eine durchgängige Sicherheit durch ständiges Dazulernen und Verbessern des Sicherheitsprozesses im ganzen Projekt und dessen Bereitstellung entstehen. \cite{grey}
 
-Eine technologische Rahmenbedingungen für DevSecOps ist das Bedürfnis für die Automatisierung von Sicherheitsaufgaben im Entwicklungsprozess. Das Einbauen von Sicherheitschecks in die Bereitstellungspipelines reduzieren Zeit und Kosten von Fehlern, die sonst manuell gefunden werden müssen. Außerdem wird die IT-Sicherheit in den Lebenszyklus einer Software integriert und somit können auch Entwickler ohne viel Wissen über IT-Security einfach die automatischen Pipelines nutzen. Das selbe gilt auch für die Bereitstellung der Infrastruktur. Infrastrucutre as Code muss auch eine sichere und zuverlässige Bereitstellung liefern, um hier auch Sicherheitslücken zu vermeiden. \cite{grey}.
+Eine technologische Rahmenbedingungen für DevSecOps ist das Bedürfnis für die Automatisierung von Sicherheitsaufgaben im Entwicklungsprozess. Das Einbauen von Sicherheitschecks in die Bereitstellungspipelines reduzieren Zeit und Kosten von Fehlern, die sonst manuell gefunden werden müssen. Zusätzlich wird die IT-Sicherheit in den kompletten Lebenszyklus einer Software integriert und somit können auch Entwickler ohne viel Wissen über IT-Security einfach die automatischen Pipelines nutzen. Das selbe gilt auch für die Bereitstellung der Infrastruktur. Infrastrucutre as Code muss auch eine sichere und zuverlässige Bereitstellung liefern, um auch hier Sicherheitslücken zu vermeiden. \cite{grey}.
 
 \section{Praktiken von DevSecOps}
-DevSecOps muss in verschiedenen Prozessen vorkommen zum Spiel um es auf den ganzen Entwicklungsprozess abzubilden.
-In der Planungsphase müssen in der Risikoanalyse Sicherheitsaspekte berücksichtigt werden und eine Strategie erstellt werden.
-Während der Entwicklung helfen statische Code Analyzen und Code Reviews um Probleme zu finden bevor der Code eingecheckt wurde, ohne sich auf die Produktivität der Entwickler auszuwirken.
-Beim automatischen Erstellen der Software nachdem der Code eingecheckt wurde, sollten automatisierte Tests laufen ob es Fehler beim erstellen gibt. Auch Abhänigkeitsanalyzen und Unit Tests sollen kritische Sicherheitsprobleme aufdecken und den verantwortlichen Entwickler benachrichtigen.
+DevSecOps muss in verschiedenen Prozessen praktiziert werden, um es auf den ganzen Entwicklungsprozess abzubilden zu können.
+In der Planungsphase müssen bei der Risikoanalyse Sicherheitsaspekte berücksichtigt werden und eine passende Strategie für das restliche Projekt erstellt zu können.
+Während der Entwicklung helfen statische Code Analyzen und Code Reviews um Probleme zu finden, bevor der Code eingecheckt wurde. Die Produktivität der Entwickler wird dadurch nur minimal eingeschränkt, es können aber schon erste Fehler erkannt und ausgebessert werden.
+Nachdem der Code eingecheckt wurde sollten beim Erstellen der Software automatisierte Tests laufen, die feststellen ob es Fehler beim erstellen gibt. Auch Abhänigkeitsanalyzen und Unit Tests sollen kritische Sicherheitsprobleme aufdecken und den verantwortlichen Entwickler benachrichtigen.
 
-Auch die automatisierte Erstellung der Infrastrukur ist ein wichtiger Teil, der sicher sein muss und auch essenzielle Auswirkungen auf das komplette System hat.
-hier sind Themen wie Secrets Management, Configuration Management oder Version Control \cite{grey}
+Auch die automatisierte Bereitstellung der Infrastrukur ist ein wichtiger Teil, der gesichert sein muss und auch essenzielle Auswirkungen auf das komplette System hat.
+Hier sind Themen wie Secrets Management, Configuration Management oder Version Control wichtige Aspekte, um die man sich kümmern muss.\cite{grey}
+
 \cite{security-model} entwickelte ein Security Model um Sicherheitspraktiken in die komplette Infrastrukturbereitstellung zu bringen. Nachdem ein statischer Analyse Security Scanner den Terraform Code analysiert hat, wird der dieser in einen verschlüsselten Objektspeicher in der Cloud ausgeführt. Hier werden alle benötigten SSH Schlüssel automatisch runter geladen. Die von Terraform erstellten IP-Adressen der Infrastruktur werden an Ansible gesendet welches die erstellten Server dann konfiguriert. Am Ende werden alle Geheimnisse von den Servern gelöscht. So wird eine sichere Bereitstellung der Infrastruktur gewährleistet.
+
 Wenn die Applikation dann auf einer Testumgebung installiert wurde sollen statische und dynamische Security Tests laufen. Auch automatisierte Attacken sollen Bestandteil des automatischen Testzyklus sein.
 Im Livebetrieb der Software sollen regelmäßig automatische Sicherheitschecks und Überwachung des Systems stattfinden, um einen Einblick in den Datenverkehr zu bekommen und eventuell bösartige Benutzerverhalten aufdecken zu können.
-DevSecOps wirkt sich auch auf das Personal aus. Es muss in einem Entwicklungsteam immer \glqq Security Chanpions\grqq \cite{grey} geben. Diese sollen besonders Wissen über IT-Sicherheit und dem Entwicklungszyklus habe,n um wie auch schon bei DevOps ein funktionsübergreifendes Team zu schaffen.
+DevSecOps wirkt sich auch auf das Personal aus. Es muss in einem Entwicklungsteam immer \glqq Security Chanpions\grqq \cite{grey} geben. Diese sollen besonders Wissen über IT-Sicherheit und dem Entwicklungszyklus haben, um wie auch schon bei DevOps ein funktionsübergreifendes Team zu schaffen.
 Auch ein regelmäßiges Training der Entwickler und Bereitstellung wichtiger Tools führen dazu das IT-Sicherheit nicht nur nebenbei läuft sondern zu einer Geisteshaltung die das ganze Unternehmen durchdringt.
+Es gibt also viele verschiedene Praktiken, die man in die Softwareentwicklung integrieren kann und soll.
 
-\section{DevSecOps Kultur}
-Interessant ist bei DevOps sowie DevSecOps, das es sich um sehr offene Begriffe handelt. 
+\section{DevSecOps Engineer als Beruf}
+Viele Stoßen beim Einführen von DevSecOps in ihren Entwicklungsprozess auf Herausforderungen. Das sind teilweise hohe Kosten, schon bestehende solide Organisationsstrukturen oder kultureller Widerstand von Entwicklern. Eine Möglichkeit dagegen ist es, einen DevSecOps Spezialisten anzustellen. Dieser kann die Transformation der Arbeitskultur vorantreiben und beschleunigen. Der Experte kann die Einführung verschiedener DevSecOps Tools übernehmen und mit seinem Wissen schneller Sicherheitsintegrationen in zum Beispiel bestehende Pipelines durchführen. \cite{grey}
+Auch DevOps wird oft als Jobbeschreibung verstanden. Als \glqq DevOps Engineer\grqq arbeitet man in verschiedenen DevOps-Teams und -Abteilungen. Diese haben vor allem die Aufgabe genannte Praktiken von DevOps durchzuführen. \cite{dev-ops}
+Ein DevSecOps Engineer setzt auf den Beruf eines DevOps Engineers mit dem Fokus auf IT-Security auf. Er muss ein tiefes Verständnis mitbringen wie sich IT-Security auf die einzelnen Phasen der Entwicklung und das Endprodukt auswirkt. Seine Aufgaben sind es, die automatisierten Sicherheitspraktiken in die Pipeline zu implementieren und immer wieder zu überprüfen und aktuell zu halten. Man sollte also gut in jeden Schritt der Softwareentwicklung integriert sein. Er muss sich natürlich aber auch mit normalen DevOps Prozessen und Prinzipien auskennen. Außerdem sollte er versuchen die restlichen skeptischen Teammitglieder überzeugen, das die Sicherheitspraktiken wichtig sind und die Entwicklungsgeschwindigkeit nicht verlangsamen. Um für einen solchen Job angestellt zu werden helfen verschiedene Zertifikate über DevSecOps Engineering. \cite{Cobb2019-lq}
+
+
+\chapter{DevSecOps mit Azure DevOps}
 
 \chapter{DevSecOps mit Github Actions}
 
-\chapter{DevSecOps mit Azure DevOps}
+\section{Sicherheitsfunktionen}
+\cite{devsecops-github}
+
 
 \chapter{Vergleich von Github Actions und Azure DevOps}
 

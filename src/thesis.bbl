@@ -5,6 +5,14 @@ F.~Beetz und S.~Harrer.
 \newblock GitOps: The Evolution of DevOps?
 \newblock \emph{IEEE Software}, S. 0--0, 2021.
 
+\bibitem[Cob19]{Cobb2019-lq}
+M.~Cobb.
+\newblock What it takes to be a {DevSecOps} engineer.
+\newblock
+  \url{https://www.techtarget.com/searchsecurity/tip/What-it-takes-to-be-a-DevSecOps-engineer},
+  Sept. 2019.
+\newblock Accessed: 2022-6-28.
+
 \bibitem[Ibr22]{security-model}
 A.~Ibrahim, A.~H. Yousef und W.~Medhat.
 \newblock DevSecOps: A Security Model for Infrastructure as Code Over the
@@ -23,5 +31,12 @@ R.~Mao, H.~Zhang, Q.~Dai, H.~Huang, G.~Rong, H.~Shen, L.~Chen und K.~Lu.
 \newblock Preliminary Findings about DevSecOps from Grey Literature.
 \newblock In \emph{2020 IEEE 20th International Conference on Software Quality,
   Reliability and Security (QRS)}, S. 450--457. 2020.
+
+\bibitem[Mig]{devsecops-github}
+F.~Migacz.
+\newblock {DevSecOps} mit {GitHub} Security.
+\newblock
+  \url{https://docs.microsoft.com/de-de/azure/architecture/solution-ideas/articles/devsecops-in-github}.
+\newblock Accessed: 2022-6-28.
 
 \end{thebibliography}
