@@ -47,15 +47,19 @@ Wenn die Applikation dann auf einer Testumgebung installiert wurde sollen statis
 Im Livebetrieb der Software sollen regelmäßig automatische Sicherheitschecks und Überwachung des Systems stattfinden, um einen Einblick in den Datenverkehr zu bekommen und eventuell bösartige Benutzerverhalten aufdecken zu können.
 DevSecOps wirkt sich auch auf das Personal aus. Es muss in einem Entwicklungsteam immer \glqq Security Chanpions\grqq \cite{grey} geben. Diese sollen besonders Wissen über IT-Sicherheit und dem Entwicklungszyklus haben, um wie auch schon bei DevOps ein funktionsübergreifendes Team zu schaffen.
 Auch ein regelmäßiges Training der Entwickler und Bereitstellung wichtiger Tools führen dazu das IT-Sicherheit nicht nur nebenbei läuft sondern zu einer Geisteshaltung die das ganze Unternehmen durchdringt.
+
+Insgesamt entsteht eine Linksverschiebung (Shift Left) der Sicherheitsmaßnahmen im Entwicklungsprozess. IT-Sicherheit soll schon von Anfang an in das Projekt mit einfließen um Fehler und Probleme am Ende zu vermeiden. Dadurch entsteht früh eine hohe Produktqualität. \cite{Luber2022-xh}
+
 Es gibt also viele verschiedene Praktiken, die man in die Softwareentwicklung integrieren kann und soll.
+
+\section{Zero Trust Prinzip}
+Ein weiterer wichtiger Security Aspekt sind Berechtigungen. Neben einem schlichten und übersichtlichem Konzept sollen vor allem keine Berechtigungen vergeben werden, die garnicht gebraucht werden. Im Vergleich zum gängigen \glqq trust but verify\grqq  spielt bei DevSecOps mehr das \glqq Zero Trust\grqq   Prinzip eine wichtige Rolle. Anstatt eine Vertrauensgrenze zu ziehen, überprüft man bei Zero Trust jeden Zugriff und jede Aktion. Es wird also zum Beispiel nicht unterschieden ob sich jemand in oder außerhalb des internen Netzwerks befindet. Vertrauen wird nur durch Authentifizierung, Verifikation und Autorisierung erreicht. Es steht also die Identität einer Person, eines Geräts oder eines Services im Vordergrund. So wird es Angreifern schwerer gemacht auch in einem Netzwerk weitere Berechtigungen zu erlangen. \cite{zero-trust}
+
 
 \section{DevSecOps Engineer als Beruf}
 Viele Stoßen beim Einführen von DevSecOps in ihren Entwicklungsprozess auf Herausforderungen. Das sind teilweise hohe Kosten, schon bestehende solide Organisationsstrukturen oder kultureller Widerstand von Entwicklern. Eine Möglichkeit dagegen ist es, einen DevSecOps Spezialisten anzustellen. Dieser kann die Transformation der Arbeitskultur vorantreiben und beschleunigen. Der Experte kann die Einführung verschiedener DevSecOps Tools übernehmen und mit seinem Wissen schneller Sicherheitsintegrationen in zum Beispiel bestehende Pipelines durchführen. \cite{grey}
 Auch DevOps wird oft als Jobbeschreibung verstanden. Als \glqq DevOps Engineer\grqq arbeitet man in verschiedenen DevOps-Teams und -Abteilungen. Diese haben vor allem die Aufgabe genannte Praktiken von DevOps durchzuführen. \cite{dev-ops}
 Ein DevSecOps Engineer setzt auf den Beruf eines DevOps Engineers mit dem Fokus auf IT-Security auf. Er muss ein tiefes Verständnis mitbringen wie sich IT-Security auf die einzelnen Phasen der Entwicklung und das Endprodukt auswirkt. Seine Aufgaben sind es, die automatisierten Sicherheitspraktiken in die Pipeline zu implementieren und immer wieder zu überprüfen und aktuell zu halten. Man sollte also gut in jeden Schritt der Softwareentwicklung integriert sein. Er muss sich natürlich aber auch mit normalen DevOps Prozessen und Prinzipien auskennen. Außerdem sollte er versuchen die restlichen skeptischen Teammitglieder überzeugen, das die Sicherheitspraktiken wichtig sind und die Entwicklungsgeschwindigkeit nicht verlangsamen. Um für einen solchen Job angestellt zu werden helfen verschiedene Zertifikate über DevSecOps Engineering. \cite{Cobb2019-lq}
-
-
-\chapter{DevSecOps mit Azure DevOps}
 
 \chapter{DevSecOps mit Github Actions}
 
@@ -67,13 +71,13 @@ Ein DevSecOps Engineer setzt auf den Beruf eines DevOps Engineers mit dem Fokus 
 \end{figure}
 GitHub bietet mit GitHub Security ein Konzept DevSecOps abzubilden und in den Entwicklungsprozess zu integrieren. Der Aufbau ist in Abbildung \ref{FIG:devsecops-in-github} zu sehen und im folgendem Abschnitt grob beschrieben.
 
-Wenn Entwickler auf GitHub Ressourcen zugreifen, müssen sie eine Authentifizierung über eine Azure Actice Directory durchlaufen. Hier wird eine sichere kennwortlose  FIDO2-Authentifizierung verwendet, die nach aktuellen Standards entspricht. \cite{fido2}
+Wenn Entwickler auf GitHub Ressourcen zugreifen, müssen sie eine Authentifizierung über eine Azure Actice Directory durchlaufen. Hier wird eine sichere kennwortlose  FIDO2-Authentifizierung verwendet, die nach aktuellen Standards entspricht. \cite{mic-fido2}
 Mit GitHub Codespaces können Entwickler auf vordefinierte Entwicklungsumgebungen in Containern zugreifen, die mit erforderlichen Erweiterungen für Sicherheitsscans ausgestattet sind.
 Durch GitHub Actions können automatisch Codierungsfehler und Schwachstellen durch automatische Scans beim Einchecken ermittelt werden.
 Außerdem können die Bildartefakte direkt in einen Azure App Service deployed werden.
 Durch Pull Requests können weitere automatisierte Tests ausgeführt werden. Außerdem bietet es eine gute Platform um Code Reviews durchzuführen.
 Microsoft Defender for Cloud identifiziert Attacken in bereitgestellten Projekten
-Durch den Azrure Monitor können regelmäßig das Verhalten der laufenden Software überwacht evaluiert und Auffälligkeiten automatisch gemeldet werden.\cite{devsecops-github}
+Durch den Azrure Monitor können regelmäßig das Verhalten der laufenden Software überwacht evaluiert und Auffälligkeiten automatisch gemeldet werden.\cite{mic-devsecops-github}
 
 \section{Codespaces}
 GitHub Codespaces bietet eine Softwareentwicklungsumgebung, die komplett in der Cloud läuft. Visual Studio Code ist so mit Terminal und Debugger im Browser nutzbar. Neben der hohen Skalierbarkeit und Standardisierung der Entwicklungsumgebung bietet das auch Sicherheitsvorteile. Visual Studio Code bietet hier viele Security Scanning Erweiterungen, die den Entwicklungsprozess sicherer machen. Codespaces bieten Security Logs, in denen festgestellt werden kann wer wann von wo mit der Entwicklungsumgebung gearbeitet hat. \cite{codespaces-logs} Außerdem kann man sensitive Daten (Secrets) verschlüsselt und sicher in den Umgebungsvariablen der Codespaces speichern. \cite{codespaces-secrets}
@@ -90,17 +94,47 @@ Eine weiterer Workflow der durch GitHub Actions zur Verfügung steht ist eine De
 Für alle öffentlichen Repositories wird automatisch bei jedem Pull Request ein Dependecy Graph erstellt, der alle Abhängigkeiten mit kompatiblen Packagemanagement Systemen beinhaltet.
 Zusätzlich gibt es den GitHub Dependabot. Dieser Analyseservice läuft in jedem öffentlichen Repository wenn man die Funktion aktiviert hat. Er erkennt alle Codeabhängigkeiten mit Sicherheitsschwachstellen. Es werden alle hinzugefügten, geänderten oder gelöschten Abhänigkeiten in einem Pull Request analysiert und dann im Security Tab des GitHub Repositories als Alert bereitgestellt.
 
+\section{Devsecops Maturity Model}
+Die \ac{owasp} hat das Model \ac{dsomm} veröffentlicht, welches den Reifegrad der DevSecOps Integration in ein Softwareprojekt angibt. Das Model ordnet den Stand in vier verschiedene Stufen ein. Mit steigendem Level steigen die praktizierten Sicherheitsmaßnahmen. Es wird zu 18 verschiedenen Dimensionen (siehe Abb. \ref{FIG:dsomm-levels}) definiert was man für die bestimmten Level umgesetzt haben muss. Es wird also der komplette Entwicklungsprozess abgedeckt. \cite{owasp-dsomm} Mit Github Advanced Security lässt sich das \ac{dsomm} Level 1 einfach implementieren. Mit den schon genannten Features wie Code Scanning, Dependency graph, Secret Scanning, Anwenden des sonstigen DevSecOps Automatisierungen und einem integrierten, open-source \ac{dast} Tool, hat man alle Wichtigen Maßnahmen für Level 1 abgedeckt. Wenn Level   1 erreicht wurde kann man sich versuchen Maßnahmen für Level 2 umzusetzten. \cite{Alwell2020-ar} Das Modell zeigt, das eine Einführung von DevSecOps ein lang laufender Prozess ist, in dem man Schritt für Schritt immer neue Maßnahmen umsetzt. So kann auch die DevSecOps Kultur langsam entstehen. Eine abrupte Einführung und Integration kostet viel Aufwand und führt schnell zu Gegenwind im Team.
+\begin{figure}[H]
+	{\caption{OWASP DevSecOps Maturity Model}
+		\label{FIG:dsomm-levels}}
+	{\includegraphics[width=1\textwidth]{figures/DSOMM.png}}
+\end{figure}
+
 \section{Github Security Lab}
 Mit dem GitHub Security Lab bietet die Plattform ein Portal, auf dem sie versuchen User zu inspirieren und es ihnen ermöglichen leichter sichere Open Source Software zu implementieren. 
 Auf der Plattform können Schwachstellen von großen, wichtigen Open Source Projekten berichtet werden. Das Portal koordiniert dann die Offenlegung der Schwachstellen mit den Sicherheitsteam der betroffenen Projekte. Es werden zusätzlich verschiedene Analysen mit CodeQL, einer semantischen Code-Analyse-Engine durchgeführt um die Sicherheitsforschung für Open Source Projekte zu vergrößern. Zusätzlich werden Common Vulnerabilities und Exposures in einer Datenbank gesammelt.
 Außerdem werden viele Forschungen, Tutorials, Artikel oder Konferenzen veröffentlicht und der Community bereitgestellt.
 Es werden auch mit dem so genannten \glqq CodeQL Bug Bounty program\grqq immer wieder Prämien ausgeschrieben, um Sicherheitsforschung in der Community zu verstärken. Die Plattform bietet also über die technischen Funktionen von GitHub hinaus, die Möglichkeit für Entwickler sich über IT-Sicherheit zu vernetzten, zu lernen oder sich an der Sicherheitsforschung für Open Source Projekte zu beteiligen. \cite{github-securitylab}
 
+\chapter{DevSecOps mit Azure DevOps Pipelines}
 
-\chapter{Vergleich von Github Actions und Azure DevOps}
+Die Continous Delivery von Azure DevOps wird durch Azure Pipelines abgebildet. Pull Requests lösen diese aus und führen automatisch CI-Builds und automatisierte Tests durch. Grundlegend sind Azure Pipelines und GitHub Actions sehr ähnlich. Als GitHub von Microsoft 2018 gekauft wurde, entstanden GitHub Actions aus einem Fork der Azure Pipelines. \cite{mic-actions-pipelines} 
+Azure DevOps bietet ein breites Berechtigungskonzept an. Man sollte nur Berechtigungen für Ressourcen vergeben die benötigt werden und mit Rollen arbeiten, um einzelne Berechtigungen zu vermeiden und den Pflegeaufwand zu minimieren. Auch Pipelines können mit Berechtigungen eingeschränkt werden, nur auf einzelne Umgebungen zugreifen zu können.
+In Pipelines ist es außerdem möglich Checks zu integrieren. Diese Pausieren die Pipeline bis eine bestimmte Bedingung erfüllt wurde. Das kann zum Beispiel eine manuelle Zustimmung sein, das die Pipeline weiterläuft. So kann man garantieren das keine schädlicher Code bereitgestellt werden kann. \cite{mic-ressouce-protection} Durch Templates können beim Erstellen von neuen Pipelines immer die selbe Struktur sichergestellt werden. So können auch Schutzmaßnahmen in den Templates vordefiniert werden. \cite{mic-templates}
+Für Azure Pipelines gibt es auch Open Source und lizenzierte \ac{dast} Tools, die über den Marketplace als Task in die Pipeline integriert werden können.
+Für die sichere Bereitstellung der Infrastruktur kann in Azure Pipelines Terraform integriert werden. \cite{EdPrice-MSFT_undated-bx}
+
+\section{Microsoft Security Code Analysis}
+Zu Azure Pipelines werden im Moment noch Microsoft Security Code Analysis angeboten, mit der man IT-Sicherheit in die Bereitstellung hinzufügen kann.
+Die Erweiterung macht das Einbinden von Security-Tasks einfach und man muss sich nicht um Updates der Tools kümmern. Nach der Installation der benötigten Azure DevOps Extension kann man neue Security-Tasks in die Pipelines hinzufügen. \cite{mic-msca-install}
+Es werden verschiedene Tasks angeboten. Der Credential Scanner scannt das Repository nach geheimen Informationen die noch im Repository stehen, wo sie nicht sein sollten. Dazu gibt es noch folgende weitere allgemeine \ac{sast} Tools die integriert werden können: TSLint, Roslyn Analyzers, BinSkim und Anti-Malware Scanner.
+Auch die Nachbearbeitung der Analysen können mit der Erweiterung abgebildet werden. Security Analysis Logs können in Azure Artifacts als .zip gespeichert werden. Der Security Report erstellt eine Zusammenfassung von allen Security-Tasks die gelaufen sind und fügt diese für bestimmte Problemstufen zusammen. Mit der Post Analysis kann konfiguriert werden, ob der Erstellungsprozess aufgrund gefundener Schwachstellen fehlschlagen soll. Mann kann hier für die einzelnen Tasks oder auch die Problemstufen unterscheiden. \cite{mic-msca-generall}
+
+Die Erweiterung ist noch bis 31. Dezember 2022 verfügbar. Bestehende Benutzer können diese zwar noch weiter Nutzen. Ansonsten muss man sich selber um die Erstellung dieser Tasks kümmern oder auf GitHub migrieren. \cite{mic-msca-generall}
+
+\chapter{Vergleich von GitHub Actions und Azure DevOps Pipelines}
+\section{Grundlegendes}
+Github Actions und Azure Pipelines sind beides CI/CD Tools. Github ist ein fork von Azure
 
 \section{Kosten}
+Die Agenten unterscheiden sich bei den Kosten teilweise. GitHub bietet kostenlose gehostete Agenten für öffentlich Repositories an, DevOps allerdings nicht mehr. Bei privaten Repositories bietet GitHub 2.000 freie Minuten im Monat an, man kann diese aber mit GitHub Enterprise auf bis zu 50.000 Minuten erhöhen. DevOps bietet kostenlose 1.800 Minuten an. Bei bezahlten Jobs gibt es hier garkein Limit mehr. 
 GitHub bietet viel kostenlose für Open Source Repositories an. Um aber den kompletten DevSecOps Prozess abzudecken ist GitHub Enterprise nötig.
 
 \chapter{Fazit}
+Insgesamt merkt man das Microsoft DevSecOps eher mit GitHub wirbt. Die Verbindung von DevSecOps und Azure Pipelines kommt in der Dokumentation von Microsoft nicht einmal vor.
+
 Github ist am Aufstreben blablabla
+
+DevSecOps langsam Schritt für Schritt einführen.

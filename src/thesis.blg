@@ -11,5 +11,11 @@ Warning--to sort, need author or key in codespaces-secrets
 Warning--to sort, need author or key in secret-scanning
 Warning--to sort, need author or key in code-scanning
 Warning--to sort, need author or key in codeql
+Warning--to sort, need author or key in owasp-dsomm
 Warning--to sort, need author or key in github-securitylab
-(There were 6 warnings)
+Warning--to sort, need author or key in mic-actions-pipelines
+Warning--to sort, need author or key in mic-ressouce-protection
+Warning--to sort, need author or key in mic-templates
+Warning--to sort, need author or key in mic-msca-install
+Warning--to sort, need author or key in mic-msca-generall
+(There were 12 warnings)
