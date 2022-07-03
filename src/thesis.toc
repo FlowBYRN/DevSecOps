@@ -1,6 +1,6 @@
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Was bedeutet DevSecOps}{1}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Zusammenfassung DevOps}{2}{section.2.1}%
@@ -21,7 +21,9 @@
 \contentsline {chapter}{\numberline {5}Vergleich von GitHub Actions und Azure DevOps Pipelines}{10}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Grundlegendes}{10}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Kosten}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Berechtigungen}{10}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Fazit}{10}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{11}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{12}{appendix.B}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{15}{chapter*.15}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{12}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{13}{appendix.B}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{16}{chapter*.15}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

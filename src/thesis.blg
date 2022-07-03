@@ -1,9 +1,18 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
 A level-1 auxiliary file: title.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: toc.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapters.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
 A level-1 auxiliary file: append.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: eid.aux
 Database file #1: thesis.bib
 Warning--to sort, need author or key in codespaces-logs
@@ -18,4 +27,45 @@ Warning--to sort, need author or key in mic-ressouce-protection
 Warning--to sort, need author or key in mic-templates
 Warning--to sort, need author or key in mic-msca-install
 Warning--to sort, need author or key in mic-msca-generall
+You've used 24 entries,
+            2811 wiz_defined-function locations,
+            713 strings with 9005 characters,
+and the built_in function-call counts, 8900 in all, are:
+= -- 769
+> -- 156
+< -- 18
++ -- 56
+- -- 48
+* -- 477
+:= -- 1032
+add.period$ -- 83
+call.type$ -- 24
+change.case$ -- 124
+chr.to.int$ -- 17
+cite$ -- 48
+duplicate$ -- 716
+empty$ -- 829
+format.name$ -- 77
+if$ -- 1939
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 156
+newline$ -- 129
+num.names$ -- 24
+pop$ -- 452
+preamble$ -- 1
+purify$ -- 144
+quote$ -- 0
+skip$ -- 301
+stack$ -- 0
+substring$ -- 353
+swap$ -- 376
+text.length$ -- 18
+text.prefix$ -- 12
+top$ -- 0
+type$ -- 192
+warning$ -- 12
+while$ -- 36
+width$ -- 28
+write$ -- 245
 (There were 12 warnings)

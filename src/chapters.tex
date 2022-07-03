@@ -129,8 +129,12 @@ Die Erweiterung ist noch bis 31. Dezember 2022 verfügbar. Bestehende Benutzer k
 Github Actions und Azure Pipelines sind beides CI/CD Tools. Github ist ein fork von Azure
 
 \section{Kosten}
+Für GitHub Advanced Security ist GitHub Enterprise benötigt. Das kostet pro Benutzer 221\$ im Monat. DevOps kostet grundlegend 6\$ pro Person mit 5 gratis Nutzern. Wenn man hier auch noch Funktionen des Azure Testplans benutzten will, kostet die Lizenz 52\$ pro Person.
 Die Agenten unterscheiden sich bei den Kosten teilweise. GitHub bietet kostenlose gehostete Agenten für öffentlich Repositories an, DevOps allerdings nicht mehr. Bei privaten Repositories bietet GitHub 2.000 freie Minuten im Monat an, man kann diese aber mit GitHub Enterprise auf bis zu 50.000 Minuten erhöhen. DevOps bietet kostenlose 1.800 Minuten an. Bei bezahlten Jobs gibt es hier garkein Limit mehr. 
 GitHub bietet viel kostenlose für Open Source Repositories an. Um aber den kompletten DevSecOps Prozess abzudecken ist GitHub Enterprise nötig.
+
+\section{Berechtigungen}
+Berechtigungen in Azure DevOps sind sehr vielseitig. Durch ein Aufteilung in Gruppen ist das Verwalten der Berechtigungen überschaubar. Da man Benutzer dann verschiedenen Gruppen zuweisen kann, sind sehr filigrane und spezielle Konfigurationen einfach umzusetzen. Bei GitHub gibt es für private Repositories nur zwei Zugriffsberechtigungsstufen. Als Besitzer kann man \glqq collaborator\grqq einladen und deren Berechtigungen steuern. Für Organisationen gibt es allerdings mehr Möglichkeiten. Hier gibt es Grundlegend einen \glqq owner\grqq ,einen \glqq billing manager\grqq und \glqq member\grqq
 
 \chapter{Fazit}
 Insgesamt merkt man das Microsoft DevSecOps eher mit GitHub wirbt. Die Verbindung von DevSecOps und Azure Pipelines kommt in der Dokumentation von Microsoft nicht einmal vor.

@@ -51,6 +51,13 @@ Setting up code scanning for a repository.
   \url{https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/setting-up-code-scanning-for-a-repository}.
 \newblock Accessed: 2022-6-28.
 
+\bibitem[{EdP}]{EdPrice-MSFT_undated-bx}
+{EdPrice-MSFT}.
+\newblock {DevSecOps} in azure.
+\newblock
+  \url{https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-azure}.
+\newblock Accessed: 2022-7-1.
+
 \bibitem[git]{github-securitylab}
 {GitHub} security lab.
 \newblock \url{https://securitylab.github.com/}.
