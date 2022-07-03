@@ -58,7 +58,13 @@ Setting up code scanning for a repository.
   \url{https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-azure}.
 \newblock Accessed: 2022-7-1.
 
-\bibitem[git]{github-securitylab}
+\bibitem[gita]{github-permissions}
+About access permissions on GitHub.
+\newblock
+  \url{https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github}.
+\newblock Accessed: 2022-6-28.
+
+\bibitem[gitb]{github-securitylab}
 {GitHub} security lab.
 \newblock \url{https://securitylab.github.com/}.
 \newblock Accessed: 2022-6-28.
@@ -76,6 +82,14 @@ A.~Ibrahim, A.~H. Yousef und W.~Medhat.
 \newblock
   \url{https://docs.microsoft.com/de-DE/azure/active-directory/authentication/concept-authentication-passwordless}.
 \newblock Accessed: 2022-6-28.
+
+\bibitem[{Kat}]{KathrynEE_fd}
+{KathrynEE}.
+\newblock Erste Schritte mit Berechtigungen, Zugriffsstufen und
+  Sicherheitsgruppen - Azure {DevOps}.
+\newblock
+  \url{https://docs.microsoft.com/de-de/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page}.
+\newblock Accessed: 2022-7-3.
 
 \bibitem[Lub22]{Luber2022-xh}
 S.~Luber.
@@ -138,6 +152,14 @@ F.~Migacz.
 {OWASP} Devsecops Maturity Model.
 \newblock \url{https://owasp.org/www-project-devsecops-maturity-model/}.
 \newblock Accessed: 2022-7-1.
+
+\bibitem[Por21]{Porta2021-vz}
+I.~Porta.
+\newblock A side-by-side comparison of Azure {DevOps} and {GitHub}.
+\newblock
+  \url{https://medium.com/microsoftazure/a-side-by-side-comparison-of-azure-devops-and-github-834a223e0c16},
+  Juni 2021.
+\newblock Accessed: 2022-7-3.
 
 \bibitem[sec]{secret-scanning}
 About Secret Scanning.

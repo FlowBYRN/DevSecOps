@@ -27,45 +27,46 @@ Warning--to sort, need author or key in mic-ressouce-protection
 Warning--to sort, need author or key in mic-templates
 Warning--to sort, need author or key in mic-msca-install
 Warning--to sort, need author or key in mic-msca-generall
-You've used 24 entries,
+Warning--to sort, need author or key in github-permissions
+You've used 27 entries,
             2811 wiz_defined-function locations,
-            713 strings with 9005 characters,
-and the built_in function-call counts, 8900 in all, are:
-= -- 769
-> -- 156
-< -- 18
-+ -- 56
-- -- 48
-* -- 477
-:= -- 1032
-add.period$ -- 83
-call.type$ -- 24
-change.case$ -- 124
-chr.to.int$ -- 17
-cite$ -- 48
-duplicate$ -- 716
-empty$ -- 829
-format.name$ -- 77
-if$ -- 1939
-int.to.chr$ -- 8
+            728 strings with 9633 characters,
+and the built_in function-call counts, 9839 in all, are:
+= -- 849
+> -- 171
+< -- 20
++ -- 62
+- -- 52
+* -- 521
+:= -- 1146
+add.period$ -- 94
+call.type$ -- 27
+change.case$ -- 138
+chr.to.int$ -- 19
+cite$ -- 53
+duplicate$ -- 790
+empty$ -- 919
+format.name$ -- 85
+if$ -- 2138
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 156
-newline$ -- 129
-num.names$ -- 24
-pop$ -- 452
+missing$ -- 173
+newline$ -- 146
+num.names$ -- 28
+pop$ -- 505
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 161
 quote$ -- 0
-skip$ -- 301
+skip$ -- 325
 stack$ -- 0
-substring$ -- 353
-swap$ -- 376
-text.length$ -- 18
-text.prefix$ -- 12
+substring$ -- 382
+swap$ -- 414
+text.length$ -- 20
+text.prefix$ -- 14
 top$ -- 0
-type$ -- 192
-warning$ -- 12
-while$ -- 36
-width$ -- 28
-write$ -- 245
-(There were 12 warnings)
+type$ -- 216
+warning$ -- 13
+while$ -- 40
+width$ -- 31
+write$ -- 277
+(There were 13 warnings)

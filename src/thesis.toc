@@ -21,8 +21,9 @@
 \contentsline {chapter}{\numberline {5}Vergleich von GitHub Actions und Azure DevOps Pipelines}{10}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Grundlegendes}{10}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Kosten}{10}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Berechtigungen}{10}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Fazit}{10}{chapter.6}%
+\contentsline {section}{\numberline {5.3}Benutzer Berechtigungen}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Automatisches Security Testing}{11}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Fazit}{11}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{12}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{13}{appendix.B}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{16}{chapter*.15}%
