@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  5 JUL 2022 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  6 JUL 2022 21:53
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1084,96 +1084,96 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 8.
-<figures/statistic-ausgaben-it-sicherheit.png, id=90, 1003.75pt x 745.78625pt>
+(Font)              scaled to size 9.49997pt on input line 9.
+<figures/statistic-ausgaben-it-sicherheit.png, id=89, 1003.75pt x 745.78625pt>
 File: figures/statistic-ausgaben-it-sicherheit.png Graphic file (type png)
 <use figures/statistic-ausgaben-it-sicherheit.png>
 Package pdftex.def Info: figures/statistic-ausgaben-it-sicherheit.png  used on 
-input line 10.
+input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 338.2522pt.
-chapter 2.
 [1
 
 
 
- <./figures/statistic-ausgaben-it-sicherheit.png>]
+]
+chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 15.
- [2]
+(Font)              scaled to size 13.67995pt on input line 16.
+[2 <./figures/statistic-ausgaben-it-sicherheit.png>] [3]
 Package acronym Info: Label `acro:ssh' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
- [3] [4]
+although it is yet undefined on input line 43.
+ [4]
 chapter 3.
-<figures/devsecops-in-github.png, id=136, 993.7125pt x 767.86874pt>
+<figures/devsecops-in-github.png, id=134, 993.7125pt x 767.86874pt>
 File: figures/devsecops-in-github.png Graphic file (type png)
 <use figures/devsecops-in-github.png>
-Package pdftex.def Info: figures/devsecops-in-github.png  used on input line 71
+Package pdftex.def Info: figures/devsecops-in-github.png  used on input line 70
 .
 (pdftex.def)             Requested size: 455.24411pt x 351.78275pt.
-[5 <./figures/devsecops-in-github.png>]
+[5] [6 <./figures/devsecops-in-github.png>]
 Package acronym Info: Label `acro:cwe' newly defined as it shall be overridden
-although it is yet undefined on input line 92.
- [6]
+although it is yet undefined on input line 91.
+ [7]
 Package acronym Info: Label `acro:owasp' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 99.
+although it is yet undefined on input line 98.
 Package acronym Info: Label `acro:dsomm' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 99.
+although it is yet undefined on input line 98.
 Package acronym Info: Label `acro:dast' newly defined as it shall be overridden
 
-although it is yet undefined on input line 99.
-<figures/DSOMM.png, id=171, 840.13875pt x 868.24374pt>
+although it is yet undefined on input line 98.
+<figures/DSOMM.png, id=176, 840.13875pt x 868.24374pt>
 File: figures/DSOMM.png Graphic file (type png)
 <use figures/DSOMM.png>
-Package pdftex.def Info: figures/DSOMM.png  used on input line 103.
+Package pdftex.def Info: figures/DSOMM.png  used on input line 102.
 (pdftex.def)             Requested size: 455.24411pt x 470.47418pt.
- [7] [8 <./figures/DSOMM.png>]
+ [8] [9 <./figures/DSOMM.png>]
 chapter 4.
 Package acronym Info: Label `acro:sast' newly defined as it shall be overridden
 
-although it is yet undefined on input line 123.
-[9]
-chapter 5.
+although it is yet undefined on input line 122.
 [10]
+chapter 5.
+[11]
 chapter 6.
-) [11] [12]
+) [12] [13]
 \openout2 = `append.aux'.
 
  (append.tex
 chapter A.
-[13
+[14
 
 
 ]
 chapter B.
-<figures/statistic-it-projekte.png, id=251, 1003.75pt x 1197.47375pt>
+<figures/statistic-it-projekte.png, id=256, 1003.75pt x 1197.47375pt>
 File: figures/statistic-it-projekte.png Graphic file (type png)
 <use figures/statistic-it-projekte.png>
 Package pdftex.def Info: figures/statistic-it-projekte.png  used on input line 
 26.
 (pdftex.def)             Requested size: 455.24411pt x 543.11557pt.
-<figures/devops-important.png, id=252, 1003.75pt x 745.78625pt>
+<figures/devops-important.png, id=257, 1003.75pt x 745.78625pt>
 File: figures/devops-important.png Graphic file (type png)
 <use figures/devops-important.png>
 Package pdftex.def Info: figures/devops-important.png  used on input line 32.
 (pdftex.def)             Requested size: 455.24411pt x 338.2522pt.
-<figures/github_azuredevops.png, id=253, 662.475pt x 401.5pt>
+<figures/github_azuredevops.png, id=258, 662.475pt x 401.5pt>
 File: figures/github_azuredevops.png Graphic file (type png)
 <use figures/github_azuredevops.png>
 Package pdftex.def Info: figures/github_azuredevops.png  used on input line 38.
 
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-<figures/githubactions_azurepipelines.png, id=254, 662.475pt x 401.5pt>
+<figures/githubactions_azurepipelines.png, id=259, 662.475pt x 401.5pt>
 File: figures/githubactions_azurepipelines.png Graphic file (type png)
 <use figures/githubactions_azurepipelines.png>
 Package pdftex.def Info: figures/githubactions_azurepipelines.png  used on inpu
 t line 39.
 (pdftex.def)             Requested size: 455.24411pt x 275.9019pt.
-) [14
+) [15
 
- <./figures/statistic-it-projekte.png>] [15 <./figures/devops-important.png>] [
-16 <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.p
+ <./figures/statistic-it-projekte.png>] [16 <./figures/devops-important.png>] [
+17 <./figures/github_azuredevops.png> <./figures/githubactions_azurepipelines.p
 ng>] (thesis.bbl
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--66
  /
  []
 
-[17
+[18
 
 
 
@@ -1318,66 +1318,66 @@ Underfull \hbox (badness 3635) in paragraph at lines 95--100
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
 []\T1/pplx/m/n/10.95 (+20) Microsoft Se-cu-ri-ty Co-de Ana-ly-sis do-cu-men-ta-
 ti-on over-view.  []$\T1/pcr/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
 \T1/pcr/m/n/10.95 / / docs . microsoft . com / en-[]us / azure / security / dev
 elop /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 []\T1/pplx/m/n/10.95 (+20) Microsoft Se-cu-ri-ty Co-de Ana-ly-sis on-boar-ding 
 gui-de.  []$\T1/pcr/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 \T1/pcr/m/n/10.95 / / docs . microsoft . com / en-[]us / azure / security / dev
 elop /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--137
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 \T1/pcr/m/n/10.95 com / en-[]us / azure / devops / pipelines / security / resou
 rces ? view =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--157
 \T1/pcr/m/n/10.95 com / de-[]de / azure / architecture / solution-[]ideas / art
 icles /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--155
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 []\T1/pplx/m/n/10.95 (+20) OWASP Devse-cops Ma-tu-ri-ty Mo-del.  []$\T1/pcr/m/n
 /10.95 https : / / owasp . org /
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
 []\T1/pplx/m/n/10.95 (+20) I. Por-ta.  A side-by-side com-pa-ri-son of Azu-re D
 e-vOps
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
 \T1/pplx/m/n/10.95 (+20) and GitHub.  []$\T1/pcr/m/n/10.95 https : / / medium .
  com / microsoftazure /
  []
 
 
-Overfull \hbox (26.39787pt too wide) in paragraph at lines 157--163
+Overfull \hbox (26.39787pt too wide) in paragraph at lines 164--170
 \T1/pcr/m/n/10.95 a-[]side-[]by-[]side-[]comparison-[]of-[]azure-[]devops-[]and
 -[]github-[]834a223e0c16$[]\T1/pplx/m/n/10.95 (-20) ,
  []
 
-) [19] (thesis.ind)
+) [20] (thesis.ind)
 \openout2 = `eid.aux'.
 
  (eid.tex
@@ -1403,13 +1403,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18550 strings out of 481556
- 345008 string characters out of 2909189
- 799810 words of memory out of 3000000
- 32946 multiletter control sequences out of 15000+200000
- 603152 words of font info for 320 fonts, out of 3000000 for 9000
+ 18537 strings out of 481556
+ 344899 string characters out of 2909189
+ 800810 words of memory out of 3000000
+ 32944 multiletter control sequences out of 15000+200000
+ 600742 words of font info for 311 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,20n,82p,10103b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,20n,78p,10103b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/base/8r.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Florian.Weidner/AppData/Loca
@@ -1419,9 +1419,9 @@ sers/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplr8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (23 pages, 605891 bytes).
+Output written on thesis.pdf (24 pages, 607589 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 87804 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 85748 words of extra memory for PDF output out of 89155 (max. 10000000)
 

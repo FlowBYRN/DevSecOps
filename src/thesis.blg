@@ -1,18 +1,9 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 10 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: toc.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapters.aux
-Reallocating 'name_of_file' (item size: 1) to 11 items.
 A level-1 auxiliary file: append.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: eid.aux
 Database file #1: thesis.bib
 Warning--to sort, need author or key in codespaces-logs
@@ -27,46 +18,6 @@ Warning--to sort, need author or key in mic-ressouce-protection
 Warning--to sort, need author or key in mic-templates
 Warning--to sort, need author or key in mic-msca-install
 Warning--to sort, need author or key in mic-msca-generall
+Warning--to sort, need author or key in mic-compare-github
 Warning--to sort, need author or key in github-permissions
-You've used 27 entries,
-            2811 wiz_defined-function locations,
-            728 strings with 9633 characters,
-and the built_in function-call counts, 9839 in all, are:
-= -- 849
-> -- 171
-< -- 20
-+ -- 62
-- -- 52
-* -- 521
-:= -- 1146
-add.period$ -- 94
-call.type$ -- 27
-change.case$ -- 138
-chr.to.int$ -- 19
-cite$ -- 53
-duplicate$ -- 790
-empty$ -- 919
-format.name$ -- 85
-if$ -- 2138
-int.to.chr$ -- 9
-int.to.str$ -- 0
-missing$ -- 173
-newline$ -- 146
-num.names$ -- 28
-pop$ -- 505
-preamble$ -- 1
-purify$ -- 161
-quote$ -- 0
-skip$ -- 325
-stack$ -- 0
-substring$ -- 382
-swap$ -- 414
-text.length$ -- 20
-text.prefix$ -- 14
-top$ -- 0
-type$ -- 216
-warning$ -- 13
-while$ -- 40
-width$ -- 31
-write$ -- 277
-(There were 13 warnings)
+(There were 14 warnings)

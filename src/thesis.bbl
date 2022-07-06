@@ -117,25 +117,32 @@ R.~Mao, H.~Zhang, Q.~Dai, H.~Huang, G.~Rong, H.~Shen, L.~Chen und K.~Lu.
   \url{https://docs.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/actions-vs-pipelines}.
 \newblock Accessed: 2022-7-1.
 
-\bibitem[micb]{mic-msca-generall}
+\bibitem[micb]{mic-compare-github}
+{DevOps} with .{NET} and {GitHub} Actions - compare {GitHub} Actions with Azure
+  Pipelines.
+\newblock
+  \url{https://docs.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/actions-vs-pipelines}.
+\newblock Accessed: 2022-7-6.
+
+\bibitem[micc]{mic-msca-generall}
 Microsoft Security Code Analysis documentation overview.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/security/develop/security-code-analysis-overview}.
 \newblock Accessed: 2022-7-1.
 
-\bibitem[micc]{mic-msca-install}
+\bibitem[micd]{mic-msca-install}
 Microsoft Security Code Analysis onboarding guide.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/security/develop/security-code-analysis-onboard}.
 \newblock Accessed: 2022-7-1.
 
-\bibitem[micd]{mic-ressouce-protection}
+\bibitem[mice]{mic-ressouce-protection}
 Pipeline resource protection - Azure Pipelines.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/devops/pipelines/security/resources?view=azure-devops}.
 \newblock Accessed: 2022-7-1.
 
-\bibitem[mice]{mic-templates}
+\bibitem[micf]{mic-templates}
 Security through templates.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/devops/pipelines/security/templates?view=azure-devops}.
