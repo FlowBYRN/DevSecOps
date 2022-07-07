@@ -1,29 +1,30 @@
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}DevSecOps Allgemein}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}DevSecOps Allgemein}{1}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Zusammenfassung DevOps}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Sicherheitsrisiken und Chancen mit DevOps}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Sicherheitsrisiken und Chancen mit DevOps}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Definition von DevSecOps}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Praktiken von DevSecOps}{4}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Zero Trust Prinzip}{5}{section.2.5}%
-\contentsline {section}{\numberline {2.6}DevSecOps Engineer als Beruf}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.4}Praktiken von DevSecOps}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Zero Trust Prinzip}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.6}DevSecOps Engineer als Beruf}{4}{section.2.6}%
 \contentsline {chapter}{\numberline {3}DevSecOps mit Github Actions}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Zusammenfassung der Sicherheitsfunktionen}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Codespaces}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Secret Scanning}{7}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Code Scanning}{7}{section.3.4}%
-\contentsline {section}{\numberline {3.5}DevSecOps Maturity Model}{8}{section.3.5}%
-\contentsline {section}{\numberline {3.6}GitHub Security Lab}{9}{section.3.6}%
-\contentsline {chapter}{\numberline {4}DevSecOps mit Azure DevOps Pipelines}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Microsoft Security Code Analysis}{10}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Vergleich von GitHub Actions und Azure DevOps Pipelines}{11}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kosten}{11}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Benutzer Berechtigungen}{11}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Automatisches Security Testing}{11}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Community Interesse}{12}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Fazit}{12}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{14}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{15}{appendix.B}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{18}{chapter*.15}%
+\contentsline {section}{\numberline {3.1}Zusammenfassung der Sicherheitsfunktionen}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Codespaces}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Secret Scanning}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Code Scanning}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}DevSecOps Maturity Model}{7}{section.3.5}%
+\contentsline {section}{\numberline {3.6}GitHub Security Lab}{8}{section.3.6}%
+\contentsline {chapter}{\numberline {4}DevSecOps mit Azure DevOps Pipelines}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Microsoft Security Code Analysis}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Vergleich von GitHub Actions und Azure DevOps Pipelines}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kosten}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Benutzer Berechtigungen}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Automatisches Security Testing}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Community Interesse}{11}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Fazit}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{14}{appendix.B}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{17}{chapter*.15}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
